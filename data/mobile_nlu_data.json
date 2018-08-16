@@ -1,0 +1,1834 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "帮我查一下我的流量有多少",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "流量",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "帮我查一下我的流量这里还有多少",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "流量",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "帮我查一下我一个月消费多少",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "消费",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "帮我查一下我月租多少",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "月租",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "帮我看一下这个手机的那个流量",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "流量",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "我想问一下我是用了多少话费",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "消费",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "帮我查一下看看我剩有多少流量",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "流量",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "我现在还有多少话费余额啊",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "余额",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "查一下话费余额",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "余额",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "我那个流量还有多少",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "流量",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "你好查下我这个流量有多少啊",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "流量",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "喂你好你帮我查看一下我的流量",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "流量",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "帮我查一下我上个月的流量有多少",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "流量",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "上个月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "恩你好啊给我查查我的流量",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "流量",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "嗯你好啊给我查查我的流量",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "流量",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "恩你好啊给我查查我话费的使用情况",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "话费",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "我想看一下话费",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "话费",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "你给我查下我的月消费情况",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "消费",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "我的话费还剩多少",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "话费",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "能不能看下我还剩多少钱",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 11,
+            "value": "钱",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "那个我的话费还有多少",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "话费",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "你能给我看下我消费多少了吗",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "消费",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "我想知道我的这个月的话费嗯嗯",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "话费",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "你给我说我的消费多少",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "消费",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "帮我看一下我上个月消费多少",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "消费",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "上个月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "帮我查一下我这个月消费多少",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "消费",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "这个月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "我想问一下我这个月是用了多少话费",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 16,
+            "value": "消费",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "这个月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "我现在还有多少话费余额啊",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "余额",
+            "entity": "item"
+          },
+          {
+            "start": 1,
+            "end": 3,
+            "value": "现在",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "你好查下我这个月流量有多少啊",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "流量",
+            "entity": "item"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "这个月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "喂你好你帮我查看一下这个本月我的流量",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 18,
+            "value": "流量",
+            "entity": "item"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "本月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "帮我查一下我十二月的流量有多少",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "流量",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "十二月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "帮我看一下我十二月消费多少",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "消费",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "十二月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "帮我查一下我十二月消费多少",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "消费",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "十二月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "我想问一下我十二月是用了多少话费",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 16,
+            "value": "消费",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "十二月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "你好查下我十二月流量有多少啊",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "流量",
+            "entity": "item"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "十二月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "喂你好你帮我查看一下这个十二月我的流量",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 19,
+            "value": "流量",
+            "entity": "item"
+          },
+          {
+            "start": 12,
+            "end": 15,
+            "value": "十二月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "帮我查一下我六月的流量有多少",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "流量",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "六月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "帮我看一下我六月消费多少",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "消费",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "六月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "帮我查一下我六月消费多少",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "消费",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "六月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "我想问一下我六月是用了多少话费",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 15,
+            "value": "消费",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "六月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "你好查下我六月流量有多少啊",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "流量",
+            "entity": "item"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "六月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "喂你好你帮我查看一下这个六月我的流量",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 18,
+            "value": "流量",
+            "entity": "item"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "六月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "帮我查一下我三月的流量有多少",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "流量",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "三月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "帮我看一下我一月消费多少",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "消费",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "一月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "帮我查一下我一月消费多少",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "消费",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "一月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "我想问一下我一月是用了多少话费",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 15,
+            "value": "消费",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "一月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "你好查下我二月的流量有多少啊",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "流量",
+            "entity": "item"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "二月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "喂你好你帮我查看一下这个一月我的流量",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 18,
+            "value": "流量",
+            "entity": "item"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "一月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "你帮我查看一下一月我的流量",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "流量",
+            "entity": "item"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "一月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "恩你好啊给我查查我当月的流量",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "流量",
+            "entity": "item"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "当月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "嗯你好啊给我查查我这个月的流量",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 15,
+            "value": "流量",
+            "entity": "item"
+          },
+          {
+            "start": 9,
+            "end": 12,
+            "value": "这个月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "恩你好啊给我查查我话费的使用情况这个月的",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "话费",
+            "entity": "item"
+          },
+          {
+            "start": 16,
+            "end": 19,
+            "value": "这个月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "我想看一下这个月份的话费",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "话费",
+            "entity": "item"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "这个月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "能不能看下我这个月的还剩多少钱",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 15,
+            "value": "钱",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "这个月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "那个我的话费还有多少这个月",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "话费",
+            "entity": "item"
+          },
+          {
+            "start": 10,
+            "end": 13,
+            "value": "这个月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "你能给我看下我三月份消费多少了吗",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "三月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "我想知道我的这个月的话费嗯嗯",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "话费",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "这个月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "你能给我看下我三月份的消费多少了吗",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "三月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "我想问一下我一月份是用了多少话费",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 16,
+            "value": "话费",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "一月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "帮我查一下我的三月的消费多少",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "消费",
+            "entity": "item"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "三月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "帮我查一下我的三月份的消费多少",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "消费",
+            "entity": "item"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "三月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "查下我三月份的用了多少钱",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 12,
+            "value": "钱",
+            "entity": "item"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "三月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "那个请问我三月份的一共消费多少",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "消费",
+            "entity": "item"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "三月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "请帮我查一下18810397783的话费",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 18,
+            "end": 20,
+            "value": "消费",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 17,
+            "value": "18810397783",
+            "entity": "phone_number"
+          }
+        ]
+      },
+      {
+        "text": "请帮我查一下110的话费",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "消费",
+            "entity": "item"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "110",
+            "entity": "phone_number"
+          }
+        ]
+      },
+      {
+        "text": "一月",
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "一月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "一月的",
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "一月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "是一月的",
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "一月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "一月",
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "一月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "上月的",
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "上月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "上个月的",
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "上个月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "二月",
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "二月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "二月的",
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "二月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "是二月的",
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "二月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "二月",
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "二月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "三月份",
+        "intent": "inform_time",
+        "entities": []
+      },
+      {
+        "text": "三月的",
+        "intent": "inform_time",
+        "entities": []
+      },
+      {
+        "text": "十一月",
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "十一月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "十一月的",
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "十一月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "是十一月的",
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "十一月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "十一月",
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "十一月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "上月的",
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "上月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "一月份",
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "一月份",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "本月的",
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "本月",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "十一份月的吧",
+        "intent": "inform_time",
+        "entities": []
+      },
+      {
+        "text": "话费",
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "话费",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "消费",
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "消费",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "流量",
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "流量",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "话费吧",
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "话费",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "是消费",
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "消费",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "流量就行",
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "流量",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "套餐一吧",
+        "intent": "inform_package",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "套餐一",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "套餐一",
+        "intent": "inform_package",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "套餐一",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "套餐二",
+        "intent": "inform_package",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "套餐二",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "套餐三就好",
+        "intent": "inform_package",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "套餐三",
+            "entity": "item"
+          }
+        ]
+      },
+            {
+        "text": "给我办一下流量套餐",
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "流量",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "我想办流量套餐",
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "流量",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "我想开一个新流量套餐",
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "流量",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "给我办一个新流量业务",
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "流量",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "给我办一下便宜点的流量套餐",
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "流量",
+            "entity": "item"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "便宜",
+            "entity": "price"
+          }
+        ]
+      },
+      {
+        "text": "我想办二十八的流量套餐",
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "流量",
+            "entity": "item"
+          },
+          {
+            "start": 3,
+            "end": 6,
+            "value": "二十八",
+            "entity": "price"
+          }
+        ]
+      },
+      {
+        "text": "我想开一个合适的新流量套餐",
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "流量",
+            "entity": "item"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "合适",
+            "entity": "price"
+          }
+        ]
+      },
+      {
+        "intent": "request_management",
+        "text": "给我办理流量业务",
+        "entities": [
+          {
+            "start": 4,
+            "value": "流量",
+            "end": 6,
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "intent": "request_management",
+        "text": "给我办理流量",
+        "entities": [
+          {
+            "start": 4,
+            "value": "流量",
+            "end": 6,
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "给我办一个三十的新流量业务",
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "流量",
+            "entity": "item"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "三十",
+            "entity": "price"
+          }
+        ]
+      },
+      {
+        "text": "本机的",
+        "intent": "inform_current_phone",
+        "entities": []
+      },
+      {
+        "text": "自己的号码",
+        "intent": "inform_current_phone",
+        "entities": []
+      },
+      {
+        "text": "我自己的",
+        "intent": "inform_current_phone",
+        "entities": []
+      },
+      {
+        "text": "本机",
+        "intent": "inform_current_phone",
+        "entities": []
+      },
+      {
+        "text": "我查本机的",
+        "intent": "inform_current_phone",
+        "entities": []
+      },
+      {
+        "text": "查本机",
+        "intent": "inform_current_phone",
+        "entities": []
+      },
+      {
+        "text": "这个手机的",
+        "intent": "inform_current_phone",
+        "entities": []
+      },
+      {
+        "text": "其他的",
+        "intent": "inform_other_phone",
+        "entities": []
+      },
+      {
+        "text": "其他号码的",
+        "intent": "inform_other_phone",
+        "entities": []
+      },
+      {
+        "text": "不是本机的",
+        "intent": "inform_other_phone",
+        "entities": []
+      },
+      {
+        "text": "别的号码的",
+        "intent": "inform_other_phone",
+        "entities": []
+      },
+      {
+        "text": "别的",
+        "intent": "inform_other_phone",
+        "entities": []
+      },
+      {
+        "text": "其他号码",
+        "intent": "inform_other_phone",
+        "entities": []
+      },
+      {
+        "text": "非本机号码",
+        "intent": "inform_other_phone",
+        "entities": []
+      },
+      {
+        "text": "你好",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "您好",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "您好吗",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "嗨",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "你是谁",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "您是",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "你是哪个",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "喂",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "再见",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "拜拜",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "很高兴和你说话",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "嗯",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "好的",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "行",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "可以的",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "恩",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "中中",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "中",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "办吧",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "办理吧",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "行的",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "没问题",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "谢谢",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "谢谢您",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "谢谢你",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "非常感谢",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "谢谢啊",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "谢了",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "不要",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不需要",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不要办",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不办",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "暂时不要了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不是",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "有问题",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "我再考虑考虑",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不好啦",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不行",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不可以的",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不中",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不可以",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "没了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "没有了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不用了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "暂时不用了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "好的没了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "好不用了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "=",
+        "intent": "unknown_intent",
+        "entities": []
+      },
+      {
+        "text": "&",
+        "intent": "unknown_intent",
+        "entities": []
+      },
+      {
+        "text": "吃饭",
+        "intent": "unknown_intent",
+        "entities": []
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": [{
+        "value": "消费",
+        "synonyms": ["话费", "钱"]
+      }]
+  }
+}
