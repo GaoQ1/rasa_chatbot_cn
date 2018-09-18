@@ -7,7 +7,7 @@ from rasa_core_sdk import Action
 from rasa_core_sdk.events import SlotSet
 
 
-support_search = ["消费", "流量"]
+support_search = ["话费", "流量"]
 
 
 def extract_item(item):

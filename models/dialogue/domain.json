@@ -31,6 +31,8 @@
     "prev_utter_ask_time",
     "prev_utter_ask_package",
     "prev_utter_ack_management",
+    "prev_utter_ask_phonenum",
+    "prev_utter_confirm",
     "prev_action_search_consume"
   ]
 }

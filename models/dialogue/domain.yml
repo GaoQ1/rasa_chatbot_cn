@@ -9,6 +9,8 @@ actions:
 - utter_ask_time
 - utter_ask_package
 - utter_ack_management
+- utter_ask_phonenum
+- utter_confirm
 - action_search_consume
 config:
   store_entities_as_slots: true
@@ -64,9 +66,15 @@ templates:
   utter_ask_package:
   - text: 我们现在支持办理流量套餐：套餐一：二十元包月三十兆；套餐二：四十元包月八十兆，请问您需要哪个？
   - text: 我们有如下套餐供您选择：套餐一：二十元包月三十兆；套餐二：四十元包月八十兆，请问您需要哪个？
+  utter_ask_phonenum:
+  - text: 请输入你的手机号码
+  - text: 你想查哪个手机号
   utter_ask_time:
   - text: 你想查哪个时间段的
   - text: 你想查几月份的
+  utter_confirm:
+  - text: 你确认办理这个吗？
+  - text: 请您再确认下
   utter_default:
   - text: 您说什么
   - text: 您能再说一遍吗，我没听清

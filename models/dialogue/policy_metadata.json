@@ -3,7 +3,8 @@
     "action_listen": {
       "slots": [
         "time",
-        "item"
+        "item",
+        "phone_number"
       ]
     },
     "utter_goodbye": {
@@ -19,14 +20,12 @@
   "rasa_core": "0.11.3",
   "python": "3.6.6",
   "max_histories": [
-    null,
     3,
-    3
+    5
   ],
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "policy_names": [
-    "rasa_core.policies.fallback.FallbackPolicy",
     "rasa_core.policies.memoization.MemoizationPolicy",
-    "rasa_core.policies.keras_policy.KerasPolicy"
+    "policy.MobilePolicy"
   ]
 }

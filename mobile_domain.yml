@@ -49,6 +49,12 @@ templates:
   utter_ask_time:
     - "你想查哪个时间段的"
     - "你想查几月份的"
+  utter_ask_phonenum:
+    - "请输入你的手机号码"
+    - "你想查哪个手机号"
+  utter_confirm:
+    - "你确认办理这个吗？"
+    - "请您再确认下"
   utter_ask_package:
     - "我们现在支持办理流量套餐：套餐一：二十元包月三十兆；套餐二：四十元包月八十兆，请问您需要哪个？"
     - "我们有如下套餐供您选择：套餐一：二十元包月三十兆；套餐二：四十元包月八十兆，请问您需要哪个？"
@@ -64,4 +70,6 @@ actions:
   - utter_ask_time
   - utter_ask_package
   - utter_ack_management
+  - utter_ask_phonenum
+  - utter_confirm
   - action_search_consume
