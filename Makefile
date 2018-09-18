@@ -10,6 +10,10 @@ run:
 	make run-actions&
 	make run-core
 
+run-online:
+	make run-actions&
+	make run-online
+
 run-actions:
 	python -m rasa_core_sdk.endpoint --actions actions
 
