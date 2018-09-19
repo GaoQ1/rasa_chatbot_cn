@@ -19,6 +19,7 @@ entities:
 - time
 - phone_number
 - price
+- package
 intents:
 - greet:
     use_entities: true
@@ -48,6 +49,9 @@ slots:
   item:
     initial_value: null
     type: rasa_core.slots.TextSlot
+  package:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
   phone_number:
     initial_value: null
     type: rasa_core.slots.TextSlot
@@ -59,7 +63,7 @@ slots:
     type: rasa_core.slots.TextSlot
 templates:
   utter_ack_management:
-  - text: 已经为您办理好了{item}
+  - text: 已经为您办理好了{package}
   utter_ask_morehelp:
   - text: 还有什么能帮您吗
   - text: 您还想干什么

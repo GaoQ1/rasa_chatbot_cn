@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 
 def train_dialogue(domain_file="mobile_domain.yml",
                    model_path="models/dialogue",
-                   training_data_file="data/mobile_story.md"):
+                   training_data_file="data/mobile_edit_story.md"):
     agent = Agent(domain_file,
                   policies=[MemoizationPolicy(max_history=3),
                             MobilePolicy()])

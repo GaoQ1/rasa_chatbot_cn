@@ -2,18 +2,16 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "time",
+        "phone_number",
         "item",
-        "phone_number"
+        "package",
+        "time"
       ]
-    },
-    "utter_goodbye": {
-      "slots": []
     },
     "utter_thanks": {
       "slots": []
     },
-    "utter_greet": {
+    "utter_goodbye": {
       "slots": []
     }
   },

@@ -7,6 +7,8 @@ slots:
     type: text
   price:
     type: text
+  package:
+    type: text
 
 intents:
   - greet
@@ -27,6 +29,7 @@ entities:
   - time
   - phone_number
   - price
+  - package
 
 templates:
   utter_greet:
@@ -59,7 +62,7 @@ templates:
     - "我们现在支持办理流量套餐：套餐一：二十元包月三十兆；套餐二：四十元包月八十兆，请问您需要哪个？"
     - "我们有如下套餐供您选择：套餐一：二十元包月三十兆；套餐二：四十元包月八十兆，请问您需要哪个？"
   utter_ack_management:
-    - "已经为您办理好了{item}"
+    - "已经为您办理好了{package}"
 
 actions:
   - utter_greet
