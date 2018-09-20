@@ -23,6 +23,9 @@ run-core:
 run-online:
 	python -m rasa_core.train --online -o models/dialogue -d mobile_domain.yml -s data/mobile_story.md --endpoints endpoints.yml
 
+run-http:
+	python -m rasa_core.run --enable_api -d models/dialogue -u models/nlu/default/current --endpoints endpoints.yml -o out.log --auth_token gaoquan
+
 train-nlu:
 	python bot.py train-nlu
 
