@@ -27,6 +27,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * deny
@@ -41,8 +43,10 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
-* inform_time{"time": "\u56db\u6708"}
-    - slot{"time": "\u56db\u6708"}
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * deny
@@ -59,6 +63,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_search{"item": "\u6d41\u91cf"}
@@ -67,8 +73,10 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
-* inform_time{"time": "\u56db\u6708"}
-    - slot{"time": "\u56db\u6708"}
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * deny
@@ -83,8 +91,13 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
-* inform_time{"time": "\u56db\u6708"}
-    - slot{"time": "\u56db\u6708"}
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_search{"item": "\u8bdd\u8d39"}
@@ -95,6 +108,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * deny
@@ -131,6 +146,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * deny
@@ -152,8 +169,13 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * deny
@@ -175,8 +197,13 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_search{"item": "\u6d41\u91cf"}
@@ -187,6 +214,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * deny
@@ -210,6 +239,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_search{"item": "\u8bdd\u8d39"}
@@ -220,6 +251,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * deny
@@ -236,6 +269,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_management{"package": "\u5957\u9910"}
@@ -259,6 +294,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_management{"package": "\u5957\u9910"}
@@ -282,6 +319,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_search{"item": "\u6d41\u91cf"}
@@ -292,6 +331,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_management{"package": "\u5957\u9910"}
@@ -313,8 +354,10 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
-* inform_time{"time": "\u56db\u6708"}
-    - slot{"time": "\u56db\u6708"}
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_search{"item": "\u8bdd\u8d39"}
@@ -325,6 +368,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_management{"package": "\u5957\u9910"}
@@ -346,6 +391,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * deny
@@ -358,8 +405,10 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
-* inform_time{"time": "\u56db\u6708"}
-    - slot{"time": "\u56db\u6708"}
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * deny
@@ -374,6 +423,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_search{"item": "\u6d41\u91cf"}
@@ -382,8 +433,10 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
-* inform_time{"time": "\u56db\u6708"}
-    - slot{"time": "\u56db\u6708"}
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * deny
@@ -396,8 +449,10 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
-* inform_time{"time": "\u56db\u6708"}
-    - slot{"time": "\u56db\u6708"}
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_search{"item": "\u8bdd\u8d39"}
@@ -408,6 +463,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * deny
@@ -438,8 +495,13 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * deny
@@ -461,6 +523,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * deny
@@ -480,8 +544,13 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_search{"item": "\u6d41\u91cf"}
@@ -492,6 +561,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * deny
@@ -513,6 +584,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_search{"item": "\u8bdd\u8d39"}
@@ -523,6 +596,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * deny
@@ -537,6 +612,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_management{"package": "\u5957\u9910"}
@@ -558,6 +635,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_management{"package": "\u5957\u9910"}
@@ -579,6 +658,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_search{"item": "\u6d41\u91cf"}
@@ -589,6 +670,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_management{"package": "\u5957\u9910"}
@@ -608,8 +691,10 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
-* inform_time{"time": "\u56db\u6708"}
-    - slot{"time": "\u56db\u6708"}
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_search{"item": "\u8bdd\u8d39"}
@@ -620,6 +705,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_management{"package": "\u5957\u9910"}
@@ -646,6 +733,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * deny
@@ -665,6 +754,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * deny
@@ -684,6 +775,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * deny
@@ -703,6 +796,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * deny
@@ -735,6 +830,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * goodbye
@@ -749,8 +846,10 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
-* inform_time{"time": "\u56db\u6708"}
-    - slot{"time": "\u56db\u6708"}
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * goodbye
@@ -767,6 +866,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_search{"item": "\u6d41\u91cf"}
@@ -775,8 +876,13 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
-* inform_time{"time": "\u56db\u6708"}
-    - slot{"time": "\u56db\u6708"}
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * thanks
@@ -791,8 +897,10 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
-* inform_time{"time": "\u56db\u6708"}
-    - slot{"time": "\u56db\u6708"}
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_search{"item": "\u8bdd\u8d39"}
@@ -803,6 +911,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * goodbye
@@ -839,6 +949,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * goodbye
@@ -860,8 +972,13 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * thanks
@@ -885,6 +1002,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_search{"item": "\u6d41\u91cf"}
@@ -895,6 +1014,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * thanks
@@ -916,8 +1037,13 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_search{"item": "\u8bdd\u8d39"}
@@ -928,6 +1054,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * goodbye
@@ -944,6 +1072,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_management{"package": "\u5957\u9910"}
@@ -967,8 +1097,13 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_management{"package": "\u5957\u9910"}
@@ -992,6 +1127,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_search{"item": "\u6d41\u91cf"}
@@ -1000,8 +1137,13 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_management{"package": "\u5957\u9910"}
@@ -1023,8 +1165,10 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
-* inform_time{"time": "\u56db\u6708"}
-    - slot{"time": "\u56db\u6708"}
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_search{"item": "\u8bdd\u8d39"}
@@ -1035,6 +1179,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_management{"package": "\u5957\u9910"}
@@ -1056,6 +1202,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * goodbye
@@ -1070,8 +1218,13 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
-* inform_time{"time": "\u56db\u6708"}
-    - slot{"time": "\u56db\u6708"}
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * goodbye
@@ -1086,6 +1239,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_search{"item": "\u6d41\u91cf"}
@@ -1094,8 +1249,13 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
-* inform_time{"time": "\u56db\u6708"}
-    - slot{"time": "\u56db\u6708"}
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * thanks
@@ -1108,8 +1268,10 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
-* inform_time{"time": "\u56db\u6708"}
-    - slot{"time": "\u56db\u6708"}
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_search{"item": "\u8bdd\u8d39"}
@@ -1120,6 +1282,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * goodbye
@@ -1154,6 +1318,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * goodbye
@@ -1173,8 +1339,13 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * thanks
@@ -1194,8 +1365,13 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_search{"item": "\u6d41\u91cf"}
@@ -1206,6 +1382,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * thanks
@@ -1227,6 +1405,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_search{"item": "\u8bdd\u8d39"}
@@ -1235,8 +1415,13 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * goodbye
@@ -1251,6 +1436,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_management{"package": "\u5957\u9910"}
@@ -1272,8 +1459,13 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_management{"package": "\u5957\u9910"}
@@ -1295,6 +1487,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_search{"item": "\u6d41\u91cf"}
@@ -1303,8 +1497,13 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_management{"package": "\u5957\u9910"}
@@ -1324,8 +1523,10 @@
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
     - utter_ask_time
-* inform_time{"time": "\u56db\u6708"}
-    - slot{"time": "\u56db\u6708"}
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_search{"item": "\u8bdd\u8d39"}
@@ -1336,6 +1537,8 @@
     - utter_ask_time
 * inform_time{"time": "\u4e09\u6708"}
     - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
     - action_search_consume
     - utter_ask_morehelp
 * request_management{"package": "\u5957\u9910"}
@@ -1348,3 +1551,188 @@
 * goodbye
     - utter_goodbye
 
+## Generated Story No61
+* greet
+    - utter_greet
+* request_management{"package": "\u5957\u9910"}
+    - slot{"package": "\u5957\u9910"}
+    - utter_ask_package
+* request_search{"item": "\u8bdd\u8d39"}
+    - slot{"item": "\u8bdd\u8d39"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+
+## Generated Story No62
+* greet
+    - utter_greet
+* request_management{"package": "\u5957\u9910"}
+    - slot{"package": "\u5957\u9910"}
+    - utter_ask_package
+* request_search{"item": "\u6d41\u91cf"}
+    - slot{"item": "\u6d41\u91cf"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+
+## Generated Story No63
+* greet
+    - utter_greet
+* request_management{"package": "\u5957\u9910"}
+    - slot{"package": "\u5957\u9910"}
+    - utter_ask_package
+* request_search{"item": "\u6d41\u91cf"}
+    - slot{"item": "\u6d41\u91cf"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* thanks
+    - utter_thanks
+
+## Generated Story No64
+* greet
+    - utter_greet
+* request_management{"package": "\u5957\u9910"}
+    - slot{"package": "\u5957\u9910"}
+    - utter_ask_package
+* request_management{"package": "\u5957\u9910"}
+    - slot{"package": "\u5957\u9910"}
+    - utter_ask_package
+* request_management{"package": "\u5957\u9910"}
+    - slot{"package": "\u5957\u9910"}
+    - utter_ask_package
+* inform_package{"package": "\u5957\u9910\u4e00"}
+    - slot{"package": "\u5957\u9910\u4e00"}
+    - utter_ack_management
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+
+## Generated Story No65
+* greet
+    - utter_greet
+* request_search{"item": "\u8bdd\u8d39"}
+    - slot{"item": "\u8bdd\u8d39"}
+    - utter_ask_phonenum
+* request_search{"item": "\u8bdd\u8d39"}
+    - slot{"item": "\u8bdd\u8d39"}
+    - utter_ask_phonenum
+* request_search{"item": "\u8bdd\u8d39"}
+    - slot{"item": "\u8bdd\u8d39"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+
+## Generated Story No66
+* greet
+    - utter_greet
+* request_search{"item": "\u6d41\u91cf"}
+    - slot{"item": "\u6d41\u91cf"}
+    - utter_ask_phonenum
+* request_search{"item": "\u6d41\u91cf"}
+    - slot{"item": "\u6d41\u91cf"}
+    - utter_ask_phonenum
+* request_search{"item": "\u6d41\u91cf"}
+    - slot{"item": "\u6d41\u91cf"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+
+
+## Generated Story No67
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
