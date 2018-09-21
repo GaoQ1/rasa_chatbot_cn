@@ -1,3 +1,5 @@
 __pycache__
 data/*.dat
 # models/dialogue
+*.log
+stories.md
