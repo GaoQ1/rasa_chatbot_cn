@@ -41,6 +41,7 @@ python -m rasa_core.run --nlu models/nlu/default/current --core models/dialogue 
 python -m rasa_core_sdk.endpoint --actions actions &
 python -m rasa_core.train --online -o models/dialogue -d mobile_domain.yml -s data/mobile_story.md --endpoints endpoints.yml
 ```
+<<<<<<< HEAD
 
 ## Some tips
 ### rename and count story
@@ -48,3 +49,5 @@ utils/re_story.py 是用来对mobile_story.md里面的故事进行重命名和�
 ### auto generate rasa_dataset_training.json
 data/rasa_dataset_training.json 是通过一些规则自动生成的，节省很多人力。仓库是[chatito_gen_nlu_data](https://github.com/GaoQ1/chatito_gen_nlu_data)
 具体用法可参考[官方文档](https://rodrigopivi.github.io/Chatito/)
+=======
+>>>>>>> a7503e8c4e607d65fdbe331c27be8a1730252c75
