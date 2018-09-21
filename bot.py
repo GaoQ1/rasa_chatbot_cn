@@ -27,7 +27,7 @@ def train_dialogue(domain_file="mobile_domain.yml",
     )
     
     agent = Agent(domain_file,
-                  policies=[MemoizationPolicy(max_history=5),
+                  policies=[MemoizationPolicy(max_history=3),
                             MobilePolicy(), fallback])
 
     training_data = agent.load_data(training_data_file)
