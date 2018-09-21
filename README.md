@@ -16,7 +16,7 @@ rasa-core-sdk: 0.11.4
 ```
 python bot.py train-nlu
 ```
-**total_word_feature_extractor.dat**可去https://pan.baidu.com/s/1-ma0ndXBWL0rnbUqCAcL-w ，密码：lhi4 下载。nlu_model_config.yml中的pipeline可自定义，这里由于数据量较少，用了开源的方法和词向量。
+**total_word_feature_extractor.dat**可去https://pan.baidu.com/s/1-ma0ndXBWL0rnbUqCAcL-w ，密码：lhi4 下载。nlu_model_config.yml中的pipeline可自定义，这里由于数据量较少，用了开源的方法和词向量。如果你的rasa_dataset_training.json上数据足够多，可以尝试使用nlu_embedding_config.yml配置来训练nlu model.
 
 
 ### train dialogue
