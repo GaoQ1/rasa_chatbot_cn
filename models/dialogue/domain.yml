@@ -45,6 +45,8 @@ intents:
     use_entities: true
 - inform_other_phone:
     use_entities: true
+- unknown_intent:
+    use_entities: true
 slots:
   item:
     initial_value: null

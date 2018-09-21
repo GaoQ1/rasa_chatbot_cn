@@ -7,7 +7,7 @@ import argparse
 import logging
 import warnings
 
-from policy import MobilePolicy
+from policy import MobilePolicy, fallback
 from rasa_core import utils
 from rasa_core.agent import Agent
 from rasa_core.policies.memoization import MemoizationPolicy
@@ -20,7 +20,7 @@ def train_dialogue(domain_file="mobile_domain.yml",
                    training_data_file="data/mobile_edit_story.md"):
     agent = Agent(domain_file,
                   policies=[MemoizationPolicy(max_history=3),
-                            MobilePolicy()])
+                            MobilePolicy(), fallback])
 
     training_data = agent.load_data(training_data_file)
     agent.train(
@@ -56,8 +56,8 @@ if __name__ == '__main__':
 
     parser.add_argument(
             'task',
-            choices=["train-nlu", "train-dialogue", "run"],
-            help="what the bot should do - e.g. run or train?")
+            choices=["train-nlu", "train-dialogue"],
+            help="what the bot should do ?")
     task = parser.parse_args().task
 
     # decide what to do based on first parameter of the script

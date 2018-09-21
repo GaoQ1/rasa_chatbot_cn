@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 
 import logging
 
+from rasa_core.policies.fallback import FallbackPolicy
 from rasa_core.policies.keras_policy import KerasPolicy
 
 logger = logging.getLogger(__name__)
@@ -60,3 +61,9 @@ class MobilePolicy(KerasPolicy):
 
         logger.debug(model.summary())
         return model
+
+fallback = FallbackPolicy(
+    fallback_action_name="action_default_fallback",
+    core_threshold=0.3,
+    nlu_threshold=0.3
+)

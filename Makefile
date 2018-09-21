@@ -10,9 +10,6 @@ run:
 	make run-actions&
 	make run-core
 
-run-online:
-	make run-actions&
-	make run-online
 
 run-actions:
 	python -m rasa_core_sdk.endpoint --actions actions
@@ -25,6 +22,10 @@ run-online:
 
 run-http:
 	python -m rasa_core.run --enable_api -d models/dialogue -u models/nlu/default/current --endpoints endpoints.yml -o out.log --auth_token gaoquan
+
+run-nlu-server:
+	python -m rasa_nlu.server -c nlu_model_config.yml --path models/nlu/
+
 
 train-nlu:
 	python bot.py train-nlu

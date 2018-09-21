@@ -23,6 +23,7 @@ intents:
   - deny
   - inform_current_phone
   - inform_other_phone
+  - unknown_intent
 
 entities:
   - item
