@@ -2,33 +2,33 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "phone_number",
         "time",
         "package",
+        "phone_number",
         "item"
       ]
     },
     "action_restart": {
       "slots": []
     },
-    "utter_thanks": {
+    "action_default_fallback": {
       "slots": []
     },
-    "action_default_fallback": {
+    "utter_thanks": {
       "slots": []
     }
   },
   "rasa_core": "0.11.4",
   "python": "3.6.6",
   "max_histories": [
-    5,
-    5,
-    null
+    null,
+    3,
+    3
   ],
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "policy_names": [
+    "rasa_core.policies.fallback.FallbackPolicy",
     "rasa_core.policies.memoization.MemoizationPolicy",
-    "policy.MobilePolicy",
-    "rasa_core.policies.fallback.FallbackPolicy"
+    "rasa_core.policies.keras_policy.KerasPolicy"
   ]
 }
