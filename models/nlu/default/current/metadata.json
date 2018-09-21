@@ -1,37 +1,44 @@
 {
+    "trained_at": "20180921-143841",
     "language": "zh",
+    "rasa_nlu_version": "0.13.4",
     "pipeline": [
         {
+            "class": "rasa_nlu.utils.mitie_utils.MitieNLP",
             "model": "data/total_word_feature_extractor.dat",
-            "name": "nlp_mitie",
-            "mitie_feature_extractor_fingerprint": 771500631,
-            "class": "rasa_nlu.utils.mitie_utils.MitieNLP"
+            "mitie_feature_extractor_fingerprint": 18096750213186988631,
+            "name": "nlp_mitie"
         },
         {
-            "dictionary_path": null,
+            "class": "rasa_nlu.tokenizers.jieba_tokenizer.JiebaTokenizer",
             "name": "tokenizer_jieba",
-            "class": "rasa_nlu.tokenizers.jieba_tokenizer.JiebaTokenizer"
+            "dictionary_path": null
         },
         {
-            "name": "ner_mitie",
+            "class": "rasa_nlu.extractors.mitie_entity_extractor.MitieEntityExtractor",
             "classifier_file": "entity_extractor.dat",
-            "class": "rasa_nlu.extractors.mitie_entity_extractor.MitieEntityExtractor"
+            "name": "ner_mitie"
         },
         {
-            "name": "ner_synonyms",
+            "class": "rasa_nlu.extractors.entity_synonyms.EntitySynonymMapper",
             "synonyms_file": "entity_synonyms.json",
-            "class": "rasa_nlu.extractors.entity_synonyms.EntitySynonymMapper"
+            "name": "ner_synonyms"
         },
         {
-            "name": "intent_entity_featurizer_regex",
+            "class": "rasa_nlu.featurizers.regex_featurizer.RegexFeaturizer",
             "regex_file": "regex_featurizer.json",
-            "class": "rasa_nlu.featurizers.regex_featurizer.RegexFeaturizer"
+            "name": "intent_entity_featurizer_regex"
         },
         {
-            "name": "intent_featurizer_mitie",
-            "class": "rasa_nlu.featurizers.mitie_featurizer.MitieFeaturizer"
+            "class": "rasa_nlu.featurizers.mitie_featurizer.MitieFeaturizer",
+            "name": "intent_featurizer_mitie"
         },
         {
+            "class": "rasa_nlu.classifiers.sklearn_intent_classifier.SklearnIntentClassifier",
+            "classifier_file": "intent_classifier_sklearn.pkl",
+            "kernels": [
+                "linear"
+            ],
             "C": [
                 1,
                 2,
@@ -40,17 +47,10 @@
                 20,
                 100
             ],
-            "kernels": [
-                "linear"
-            ],
-            "max_cross_validation_folds": 5,
-            "scoring_function": "f1_weighted",
             "name": "intent_classifier_sklearn",
-            "classifier_file": "intent_classifier_sklearn.pkl",
-            "class": "rasa_nlu.classifiers.sklearn_intent_classifier.SklearnIntentClassifier"
+            "scoring_function": "f1_weighted",
+            "max_cross_validation_folds": 5
         }
     ],
-    "training_data": "training_data.json",
-    "trained_at": "20180919-171257",
-    "rasa_nlu_version": "0.13.3"
+    "training_data": "training_data.json"
 }

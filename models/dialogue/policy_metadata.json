@@ -3,32 +3,32 @@
     "action_listen": {
       "slots": [
         "phone_number",
-        "item",
         "time",
-        "package"
+        "package",
+        "item"
       ]
     },
     "action_restart": {
       "slots": []
     },
-    "action_default_fallback": {
+    "utter_thanks": {
       "slots": []
     },
-    "utter_thanks": {
+    "action_default_fallback": {
       "slots": []
     }
   },
   "rasa_core": "0.11.4",
   "python": "3.6.6",
   "max_histories": [
-    null,
-    3,
-    3
+    5,
+    5,
+    null
   ],
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "policy_names": [
-    "rasa_core.policies.fallback.FallbackPolicy",
     "rasa_core.policies.memoization.MemoizationPolicy",
-    "rasa_core.policies.keras_policy.KerasPolicy"
+    "policy.MobilePolicy",
+    "rasa_core.policies.fallback.FallbackPolicy"
   ]
 }
