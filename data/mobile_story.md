@@ -724,9 +724,6 @@
     - utter_greet
 * request_search{"item": "\u8bdd\u8d39"}
     - slot{"item": "\u8bdd\u8d39"}
-    - utter_default
-* request_search{"item": "\u8bdd\u8d39"}
-    - slot{"item": "\u8bdd\u8d39"}
     - utter_ask_phonenum
 * inform_current_phone{"phone_number": "18912936976"}
     - slot{"phone_number": "18912936976"}
@@ -743,9 +740,6 @@
 ## Generated Story -6858714759557167672
 * greet
     - utter_greet
-* request_search{"item": "\u6d41\u91cf"}
-    - slot{"item": "\u6d41\u91cf"}
-    - utter_default
 * request_search{"item": "\u6d41\u91cf"}
     - slot{"item": "\u6d41\u91cf"}
     - utter_ask_phonenum
@@ -785,9 +779,6 @@
 ## Generated Story 8264602699687683514
 * greet
     - utter_greet
-* request_search{"item": "\u8bdd\u8d39"}
-    - slot{"item": "\u8bdd\u8d39"}
-    - utter_default
 * request_search{"item": "\u6d41\u91cf"}
     - slot{"item": "\u6d41\u91cf"}
     - utter_ask_phonenum
@@ -806,9 +797,6 @@
 ## Generated Story 2592911282258042301
 * greet
     - utter_greet
-* request_management{"package": "\u5957\u9910"}
-    - slot{"package": "\u5957\u9910"}
-    - utter_default
 * request_management{"package": "\u5957\u9910"}
     - slot{"package": "\u5957\u9910"}
     - utter_ack_management

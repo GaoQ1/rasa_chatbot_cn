@@ -65,20 +65,19 @@ templates:
   utter_ack_management:
   - text: 已经为您办理好了{package}
   utter_ask_morehelp:
-  - text: 还有什么能帮您吗
-  - text: 您还想干什么
+  - text: 还有什么能帮您吗？
+  - text: 您还需要什么服务？
   utter_ask_package:
   - text: 我们现在支持办理流量套餐：套餐一：二十元包月三十兆；套餐二：四十元包月八十兆，请问您需要哪个？
   - text: 我们有如下套餐供您选择：套餐一：二十元包月三十兆；套餐二：四十元包月八十兆，请问您需要哪个？
   utter_ask_phonenum:
-  - text: 请输入你的手机号码
-  - text: 你想查哪个手机号
+  - text: 你想查手机号码是？
   utter_ask_time:
-  - text: 你想查哪个时间段的
-  - text: 你想查几月份的
+  - text: 你想查哪个时间段的？
+  - text: 你想查几月份的？
   utter_confirm:
   - text: 你确认办理这个吗？
-  - text: 请您再确认下
+  - text: 请您再确认下。
   utter_default:
   - text: 您说什么
   - text: 您能再说一遍吗，我没听清
@@ -86,9 +85,9 @@ templates:
   - text: 再见，为您服务很开心
   - text: Bye， 下次再见
   utter_greet:
-  - text: 您好!，我是机器人小热，很高兴为您服务。
-  - text: 你好!，我是小热，可以帮您办理流量套餐，话费查询等业务。
-  - text: hi!，人家是小热，有什么可以帮您吗。
+  - text: 您好!，我是机器人小贝，很高兴为您服务。
+  - text: 你好!，我是小贝，可以帮您办理流量套餐，话费查询等业务。
+  - text: hi!，人家是小贝，有什么可以帮您吗。
   utter_thanks:
   - text: 不用谢
   - text: 我应该做的
