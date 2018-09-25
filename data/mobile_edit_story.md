@@ -1838,3 +1838,256 @@
 * deny
     - utter_goodbye
     - action_restart
+
+## Generated Story No71
+* greet
+    - utter_greet
+* request_search{"item": "\u8bdd\u8d39"}
+    - slot{"item": "\u8bdd\u8d39"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+    - action_restart
+
+## Generated Story No72
+* greet
+    - utter_greet
+* request_search{"item": "\u6d41\u91cf"}
+    - slot{"item": "\u6d41\u91cf"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+    - action_restart
+
+## Generated Story No73
+* greet
+    - utter_greet
+* request_search{"item": "\u8bdd\u8d39"}
+    - slot{"item": "\u8bdd\u8d39"}
+    - utter_ask_phonenum
+* request_search{"item": "\u6d41\u91cf"}
+    - slot{"item": "\u6d41\u91cf"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+    - action_restart
+
+## Generated Story No74
+* greet
+    - utter_greet
+* request_search{"item": "\u6d41\u91cf"}
+    - slot{"item": "\u6d41\u91cf"}
+    - utter_ask_phonenum
+* request_search{"item": "\u8bdd\u8d39"}
+    - slot{"item": "\u8bdd\u8d39"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+    - action_restart
+
+## Generated Story No75
+* greet
+    - utter_greet
+* request_search{"item": "\u8bdd\u8d39"}
+    - slot{"item": "\u8bdd\u8d39"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* request_search{"item": "\u6d41\u91cf"}
+    - slot{"item": "\u6d41\u91cf"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+    - action_restart
+
+## Generated Story No76
+* greet
+    - utter_greet
+* request_search{"item": "\u8bdd\u8d39"}
+    - slot{"item": "\u8bdd\u8d39"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+    - action_restart
+
+## Generated Story No77
+* request_search{"item": "\u8bdd\u8d39"}
+    - slot{"item": "\u8bdd\u8d39"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+    - action_restart
+
+## Generated Story No78
+* request_search{"item": "\u6d41\u91cf"}
+    - slot{"item": "\u6d41\u91cf"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+    - action_restart
+
+## Generated Story No79
+* request_search{"item": "\u8bdd\u8d39"}
+    - slot{"item": "\u8bdd\u8d39"}
+    - utter_ask_phonenum
+* request_search{"item": "\u6d41\u91cf"}
+    - slot{"item": "\u6d41\u91cf"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+    - action_restart
+
+## Generated Story No80
+* request_search{"item": "\u6d41\u91cf"}
+    - slot{"item": "\u6d41\u91cf"}
+    - utter_ask_phonenum
+* request_search{"item": "\u8bdd\u8d39"}
+    - slot{"item": "\u8bdd\u8d39"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+    - action_restart
+
+## Generated Story No81
+* request_search{"item": "\u8bdd\u8d39"}
+    - slot{"item": "\u8bdd\u8d39"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* request_search{"item": "\u6d41\u91cf"}
+    - slot{"item": "\u6d41\u91cf"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+    - action_restart
+
+## Generated Story No82
+* request_search{"item": "\u8bdd\u8d39"}
+    - slot{"item": "\u8bdd\u8d39"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+    - action_restart
+

@@ -1838,3 +1838,256 @@
 * deny
     - utter_goodbye
     - action_restart
+
+## Generated Story -925458902873813928
+* greet
+    - utter_greet
+* request_search{"item": "\u8bdd\u8d39"}
+    - slot{"item": "\u8bdd\u8d39"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+    - action_restart
+
+## Generated Story 8346335006848424613
+* greet
+    - utter_greet
+* request_search{"item": "\u6d41\u91cf"}
+    - slot{"item": "\u6d41\u91cf"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+    - action_restart
+
+## Generated Story 7077774493620995898
+* greet
+    - utter_greet
+* request_search{"item": "\u8bdd\u8d39"}
+    - slot{"item": "\u8bdd\u8d39"}
+    - utter_ask_phonenum
+* request_search{"item": "\u6d41\u91cf"}
+    - slot{"item": "\u6d41\u91cf"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+    - action_restart
+
+## Generated Story 8425779111151787823
+* greet
+    - utter_greet
+* request_search{"item": "\u6d41\u91cf"}
+    - slot{"item": "\u6d41\u91cf"}
+    - utter_ask_phonenum
+* request_search{"item": "\u8bdd\u8d39"}
+    - slot{"item": "\u8bdd\u8d39"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+    - action_restart
+
+## Generated Story 8346364158529617815
+* greet
+    - utter_greet
+* request_search{"item": "\u8bdd\u8d39"}
+    - slot{"item": "\u8bdd\u8d39"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* request_search{"item": "\u6d41\u91cf"}
+    - slot{"item": "\u6d41\u91cf"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+    - action_restart
+
+## Generated Story 8459019750617421834
+* greet
+    - utter_greet
+* request_search{"item": "\u8bdd\u8d39"}
+    - slot{"item": "\u8bdd\u8d39"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+    - action_restart
+
+## Generated Story -925458902873813928
+* request_search{"item": "\u8bdd\u8d39"}
+    - slot{"item": "\u8bdd\u8d39"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+    - action_restart
+
+## Generated Story 8346335006848424613
+* request_search{"item": "\u6d41\u91cf"}
+    - slot{"item": "\u6d41\u91cf"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+    - action_restart
+
+## Generated Story 7077774493620995898
+* request_search{"item": "\u8bdd\u8d39"}
+    - slot{"item": "\u8bdd\u8d39"}
+    - utter_ask_phonenum
+* request_search{"item": "\u6d41\u91cf"}
+    - slot{"item": "\u6d41\u91cf"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+    - action_restart
+
+## Generated Story 8425779111151787823
+* request_search{"item": "\u6d41\u91cf"}
+    - slot{"item": "\u6d41\u91cf"}
+    - utter_ask_phonenum
+* request_search{"item": "\u8bdd\u8d39"}
+    - slot{"item": "\u8bdd\u8d39"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+    - action_restart
+
+## Generated Story 8346364158529617815
+* request_search{"item": "\u8bdd\u8d39"}
+    - slot{"item": "\u8bdd\u8d39"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* request_search{"item": "\u6d41\u91cf"}
+    - slot{"item": "\u6d41\u91cf"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+    - action_restart
+
+## Generated Story 8459019750617421834
+* request_search{"item": "\u8bdd\u8d39"}
+    - slot{"item": "\u8bdd\u8d39"}
+    - utter_ask_phonenum
+* inform_current_phone{"phone_number": "18912936976"}
+    - slot{"phone_number": "18912936976"}
+    - utter_ask_time
+* inform_time{"time": "\u4e09\u6708"}
+    - slot{"time": "\u4e09\u6708"}
+    - utter_confirm
+* confirm
+    - action_search_consume
+    - utter_ask_morehelp
+* deny
+    - utter_goodbye
+    - action_restart
+

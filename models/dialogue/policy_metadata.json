@@ -2,10 +2,10 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "time",
         "item",
-        "package",
-        "phone_number"
+        "time",
+        "phone_number",
+        "package"
       ]
     },
     "action_restart": {
