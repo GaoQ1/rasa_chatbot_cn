@@ -16,9 +16,7 @@ class MobilePolicy(KerasPolicy):
         from keras.layers import LSTM, Activation, Masking, Dense
         from keras.models import Sequential
 
-        from keras.models import Sequential
-        from keras.layers import \
-            Masking, LSTM, Dense, TimeDistributed, Activation
+        from keras.layers import Masking, LSTM, Dense, TimeDistributed, Activation
 
         # Build Model
         model = Sequential()

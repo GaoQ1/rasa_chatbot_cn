@@ -15,14 +15,10 @@ intents:
   - confirm
   - goodbye
   - thanks
-  - inform_item
-  - inform_package
-  - inform_time
+  - inform
   - request_management
   - request_search
   - deny
-  - inform_current_phone
-  - inform_other_phone
   - unknown_intent
 
 entities:
@@ -34,15 +30,16 @@ entities:
 
 templates:
   utter_greet:
-    - "您好!，我是机器人小贝，很高兴为您服务。"
-    - "你好!，我是小贝，可以帮您办理流量套餐，话费查询等业务。"
-    - "hi!，人家是小贝，有什么可以帮您吗。"
+    - "您好! 我是机器人小贝，很高兴为您服务。"
+    - "你好! 我是小贝，可以帮您办理流量套餐，话费查询等业务。"
+    - "hi! 我是小贝，有什么可以帮您吗。"
   utter_goodbye:
     - "再见，为您服务很开心"
     - "Bye， 下次再见"
   utter_default:
-    - "您说什么"
-    - "您能再说一遍吗，我没听清"
+    - "您说什么，小贝听不懂。"
+    - "你说的小贝不懂呀！"
+    - "不好意思，您能换个说法吗？"
   utter_thanks:
     - "不用谢"
     - "我应该做的"
@@ -56,8 +53,7 @@ templates:
   utter_ask_phonenum:
     - "你想查的手机号码是？"
   utter_confirm:
-    - "你确认办理这个吗？"
-    - "请您再确认下。"
+    - "你确认吗？"
   utter_ask_package:
     - "我们现在支持办理流量套餐：套餐一：二十元包月三十兆；套餐二：四十元包月八十兆，请问您需要哪个？"
     - "我们有如下套餐供您选择：套餐一：二十元包月三十兆；套餐二：四十元包月八十兆，请问您需要哪个？"

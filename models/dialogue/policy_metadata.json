@@ -2,23 +2,25 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "item",
+        "package",
         "time",
-        "phone_number",
-        "package"
+        "item"
       ]
     },
-    "action_restart": {
+    "utter_goodbye": {
       "slots": []
     },
     "action_default_fallback": {
+      "slots": []
+    },
+    "utter_thanks": {
       "slots": []
     }
   },
   "rasa_core": "0.11.4",
   "python": "3.6.6",
   "max_histories": [
-    3,
+    5,
     5,
     null
   ],

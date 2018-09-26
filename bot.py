@@ -22,19 +22,19 @@ def train_dialogue(domain_file="mobile_domain.yml",
 
     fallback = FallbackPolicy(
         fallback_action_name="action_default_fallback",
-        core_threshold=0.3,
-        nlu_threshold=0.3
+        nlu_threshold=0.5,
+        core_threshold=0.3
     )
     
     agent = Agent(domain_file,
-                  policies=[MemoizationPolicy(max_history=3),
+                  policies=[MemoizationPolicy(max_history=5),
                             MobilePolicy(), fallback])
 
     training_data = agent.load_data(training_data_file)
     agent.train(
             training_data,
-            epochs=600,
-            batch_size=20,
+            epochs=500,
+            batch_size=16,
             validation_split=0.2
     )
 
@@ -48,7 +48,7 @@ def train_nlu():
     from rasa_nlu.model import Trainer
 
     training_data = load_data('data/rasa_dataset_training.json')
-    trainer = Trainer(config.load("nlu_model_config.yml"))
+    trainer = Trainer(config.load("nlu_embedding_config.yml"))
     trainer.train(training_data)
     model_directory = trainer.persist('models/nlu/',
                                       fixed_model_name="current")
