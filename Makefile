@@ -34,6 +34,9 @@ run-nlu-server:
 evaluate:
 	python -m rasa_core.evaluate -d models/dialogue -s data/mobile_edit_story.md
 
+visualize:
+	python -m rasa_core.visualize -s data/mobile_edit_story.md -d mobile_domain.yml -o story_graph.png
+
 train-nlu:
 	python bot.py train-nlu
 
