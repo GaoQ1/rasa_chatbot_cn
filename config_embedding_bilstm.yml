@@ -1,0 +1,23 @@
+language: "zh"
+
+pipeline:
+  - name: "tokenizer_jieba"
+
+  - name: "intent_featurizer_count_vectors"
+    token_pattern: '(?u)\b\w+\b'
+  - name: "intent_classifier_tensorflow_embedding"
+
+  - name: "ner_bilstm_crf"
+    lr: 0.001
+    char_dim: 100
+    lstm_dim: 100
+    batches_per_epoch: 10
+    seg_dim: 20
+    num_segs: 4
+    batch_size: 200
+    tag_schema: "iobes"
+    model_type: "bilstm" # 模型支持两种idcnn膨胀卷积模型或bilstm双向lstm模型
+    clip: 5
+    optimizer: "adam"
+    dropout_keep: 0.5
+    steps_check: 100

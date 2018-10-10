@@ -56,6 +56,20 @@ def train_nlu():
     return model_directory
 
 
+def train_nlu_gao():
+    from rasa_nlu_gao.training_data import load_data
+    from rasa_nlu_gao import config
+    from rasa_nlu_gao.model import Trainer
+
+    training_data = load_data('data/rasa_dataset_training.json')
+    trainer = Trainer(config.load("config_embedding_bilstm.yml"))
+    trainer.train(training_data)
+    model_directory = trainer.persist('models/nlu_gao/',
+                                      fixed_model_name="current")
+
+    return model_directory
+
+
 if __name__ == '__main__':
     utils.configure_colored_logging(loglevel="INFO")
 
@@ -64,12 +78,14 @@ if __name__ == '__main__':
 
     parser.add_argument(
             'task',
-            choices=["train-nlu", "train-dialogue"],
+            choices=["train-nlu", "train-dialogue", "train-nlu-gao"],
             help="what the bot should do ?")
     task = parser.parse_args().task
 
     # decide what to do based on first parameter of the script
     if task == "train-nlu":
         train_nlu()
+    elif task == "train-nlu-gao":
+        train_nlu_gao()
     elif task == "train-dialogue":
         train_dialogue()

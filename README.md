@@ -48,3 +48,20 @@ utils/re_story.py 是用来对mobile_story.md里面的故事进行重命名和�
 ### auto generate rasa_dataset_training.json
 data/rasa_dataset_training.json 是通过一些规则自动生成的，节省很多人力。仓库是[chatito_gen_nlu_data](https://github.com/GaoQ1/chatito_gen_nlu_data)
 具体用法可参考[官方文档](https://rodrigopivi.github.io/Chatito/)
+
+
+## Some magical functions
+最近自己开源了基于rasa-nlu新增了两个实体识别的模型，包括bilstm+crf和idcnn_crf，使用tensorflow框架写的。那下面就是介绍如何使用了。
+### 首先需要下载rasa-nlu-gao
+```
+pip install rasa-nlu-gao
+```
+### 训练模型
+```
+python bot.py train-nlu-gao
+```
+### 测试使用模型
+```
+python -m rasa_nlu_gao.server -c config_embedding_bilstm.yml --path models/nlu_gao/
+```
+后续[rasa-nlu-gao](https://github.com/GaoQ1/rasa_nlu_gq)会持续更新，也欢迎贡献。

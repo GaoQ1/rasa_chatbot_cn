@@ -43,3 +43,8 @@ train-nlu:
 train-core:
 	python bot.py train-dialogue
 
+train-nlu-gao:
+	python bot.py train-nlu-gao
+
+run-nlu-gao-server:
+	python -m rasa_nlu_gao.server -c config_embedding_bilstm.yml --path models/nlu_gao/

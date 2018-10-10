@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/gaoquan/Documents/ml-project/rasa-project/rasa_chatbot_cn/models/nlu_gao/default/current/ner_bilstm_crf.ckpt"
+all_model_checkpoint_paths: "/Users/gaoquan/Documents/ml-project/rasa-project/rasa_chatbot_cn/models/nlu_gao/default/current/ner_bilstm_crf.ckpt"
