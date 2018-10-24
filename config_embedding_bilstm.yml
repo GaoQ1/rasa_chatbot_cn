@@ -21,3 +21,6 @@ pipeline:
     optimizer: "adam"
     dropout_keep: 0.5
     steps_check: 100
+  - name: "ner_duckling"
+    language: "zh$core"
+    dimensions: [ "time", "number", "duration", "phone-number"]
