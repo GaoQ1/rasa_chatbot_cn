@@ -1,5 +1,5 @@
 # Rasa Core and Rasa NLU
-- rasa对话系统系列文章（更新中）
+## rasa对话系统系列文章（更新中）
 - [rasa对话系统踩坑记（一）](https://www.jianshu.com/p/5d9aa2a444a3)
 - [rasa对话系统踩坑记（二）](https://www.jianshu.com/p/4ecd09be4419)
 
