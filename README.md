@@ -2,6 +2,7 @@
 ## rasa对话系统系列文章（更新中）
 - [rasa对话系统踩坑记（一）](https://www.jianshu.com/p/5d9aa2a444a3)
 - [rasa对话系统踩坑记（二）](https://www.jianshu.com/p/4ecd09be4419)
+- [rasa对话系统踩坑记（三）](https://www.jianshu.com/p/ae028903d748)
 
 ## Introduction
 这个demo是用rasa-nlu完成slot filling和intent classify，用rasa-core完成DM(dialogue management)和NLG(natural language generate)。demo完成的对话主要有办理套餐和查询话费和流量，其他意图做了default回答。demo是参考了[_rasa_chatbot](https://github.com/zqhZY/_rasa_chatbot)。_rasa_chatbot存在的问题，一是版本更新不及时，API没有做相应的更改；二是里面的story太少。
@@ -52,7 +53,7 @@ data/rasa_dataset_training.json 是通过一些规则自动生成的，节省很
 
 
 ## Some magical functions
-最近自己开源了基于rasa-nlu新增了两个实体识别的模型，包括bilstm+crf和idcnn_crf，使用tensorflow框架写的。那下面就是介绍如何使用了。
+最近自己开源了基于rasa-nlu的rasa-nlu-gao新增了四个自定义组件，具体用法和说明请参考上面[rasa对话系统踩坑系列二](https://www.jianshu.com/p/4ecd09be4419)和[rasa对话系统踩坑记（三）](https://www.jianshu.com/p/ae028903d748)。那下面就是介绍如何使用了。
 ### 首先需要下载rasa-nlu-gao
 ```
 pip install rasa-nlu-gao
