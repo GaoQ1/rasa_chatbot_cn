@@ -2,17 +2,28 @@ language: "zh"
 
 pipeline:
 - name: "tokenizer_jieba"
-- name: "ner_duckling"
-  language: "zh$core"
-  dimensions: [ "time", "duration", "phone-number"]
 - name: "ner_crf"
 - name: "jieba_pseg_extractor"
   part_of_speech: ["nr"]
 
-- name: "intent_featurizer_wordvector"
-  vector: "data/2000000-small.txt"
+
+- name: "bert_vectors_featurizer"
+  ip: 'localhost'
+  port: 5555
 - name: "intent_classifier_tensorflow_embedding"
-- name: "entity_edit_intent"
-  entity: ["nr", "phone_number"]
-  intent: ["confirm", "confirm"]
-  min_confidence: 0
+
+####################################################################
+
+# language: "zh"
+
+# pipeline:
+# - name: "tokenizer_jieba"
+# - name: "ner_crf"
+# - name: "jieba_pseg_extractor"
+#   part_of_speech: ["nr"]
+
+
+# - name: "intent_featurizer_wordvector"
+#   vector: "data/vectors.txt"
+
+# - name: "intent_classifier_tensorflow_embedding"
