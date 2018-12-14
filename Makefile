@@ -48,3 +48,12 @@ train-nlu-gao:
 
 run-nlu-gao-server:
 	python -m rasa_nlu_gao.server -c config_embedding_bilstm.yml --path models/nlu_gao/
+
+
+compare-policy:
+	python -m rasa_core.train compare -c keras_policy.yml embed_policy.yml \
+  	-d mobile_domain.yml -s data/mobile_edit_story.md -o comparison_models/ --runs 3 --percentages \
+  	0 25 50 70
+
+evaluate-policy:
+	python -m rasa_core.evaluate compare -s data/mobile_edit_story.md --core comparison_models/ -o comparison_results/

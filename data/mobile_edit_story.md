@@ -20,9 +20,6 @@
 * unknown_intent
   - action_default_fallback
 
-## fallback
-  - action_default_fallback
-
 ## Generated Story No5
 * greet
     - utter_greet
