@@ -10,6 +10,9 @@ pipeline:
 - name: "bert_vectors_featurizer"
   ip: 'localhost'
   port: 5555
+  port_out: 5556
+  show_server_config: True
+  timeout: 10000
 - name: "intent_classifier_tensorflow_embedding"
 
 ####################################################################
