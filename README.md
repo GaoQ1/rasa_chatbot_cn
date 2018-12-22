@@ -68,7 +68,7 @@ data/rasa_dataset_training.json 是通过一些规则自动生成的，节省很
 
 
 ## Some magical functions
-最近自己开源了基于rasa-nlu的rasa-nlu-gao新增了四个自定义组件，具体用法和说明请参考上面[rasa对话系统踩坑系列二](https://www.jianshu.com/p/4ecd09be4419)和[rasa对话系统踩坑记（三）](https://www.jianshu.com/p/ae028903d748)。那下面就是介绍如何使用了。
+最近自己开源了基于rasa-nlu的[rasa-nlu-gao](https://github.com/GaoQ1/rasa_nlu_gq)新增了N多个个自定义组件，具体用法和说明请参考[rasa对话系统踩坑记](https://www.jianshu.com/u/4b912e917c2e)。那下面就是介绍如何使用了。
 ### 首先需要下载rasa-nlu-gao
 ```
 pip install rasa-nlu-gao
