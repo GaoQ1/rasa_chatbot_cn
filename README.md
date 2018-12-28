@@ -9,6 +9,7 @@
 - [rasa对话系统踩坑记（七）](https://www.jianshu.com/p/405c087c2f7f)
 - [rasa对话系统踩坑记（八）](https://www.jianshu.com/p/6a93209c48a4)
 - [rasa对话系统踩坑记（九）](https://www.jianshu.com/p/1a4abe93635e)
+- [rasa对话系统踩坑记（十）](https://www.jianshu.com/p/debcf0041fcb)
 
 ## Introduction
 这个demo是用rasa-nlu完成slot filling和intent classify，用rasa-core完成DM(dialogue management)和NLG(natural language generate)。demo完成的对话主要有办理套餐和查询话费和流量，其他意图做了default回答。demo是参考了[_rasa_chatbot](https://github.com/zqhZY/_rasa_chatbot)。_rasa_chatbot存在的问题，一是版本更新不及时，API没有做相应的更改；二是没有自定义的component。
