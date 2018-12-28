@@ -50,7 +50,7 @@ run-nlu-gao-server:
 	python -m rasa_nlu_gao.server -c configs/config_embedding_bilstm.yml --path models/nlu_gao/
 
 compare-policy:
-	python -m rasa_core.train compare -c policy/attention_policy.yml policy/embed_policy.yml \
+	python -m rasa_core.train compare -c policy/attention_policy.yml policy/keras_policy.yml \
   	-d mobile_domain.yml -s data/mobile_edit_story.md -o comparison_models/ --runs 3 --percentages \
   	0 25 50 70
 

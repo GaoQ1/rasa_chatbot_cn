@@ -1,3 +1,8 @@
 policies:
   - name: policy.attention_policy.AttentionPolicy
     epochs: 100
+    featurizer:
+    - name: MaxHistoryTrackerFeaturizer
+      max_history: 5
+      state_featurizer:
+        - name: LabelTokenizerSingleStateFeaturizer

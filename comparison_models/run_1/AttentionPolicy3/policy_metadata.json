@@ -2,8 +2,8 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "package",
         "time",
+        "package",
         "item"
       ]
     },
@@ -23,5 +23,5 @@
   "policy_names": [
     "policy.attention_policy.AttentionPolicy"
   ],
-  "trained_at": "20181228-091952"
+  "trained_at": "20181228-161008"
 }

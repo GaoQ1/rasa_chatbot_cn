@@ -1,3 +1,7 @@
 policies:
   - name: EmbeddingPolicy
     epochs: 20
+    featurizer:
+    - name: FullDialogueTrackerFeaturizer
+      state_featurizer:
+        - name: LabelTokenizerSingleStateFeaturizer

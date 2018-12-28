@@ -1,13 +1,12 @@
 {
   "action_fingerprints": {
     "action_listen": {
-      "slots": [
-        "time",
-        "package",
-        "item"
-      ]
+      "slots": []
     },
     "utter_goodbye": {
+      "slots": []
+    },
+    "utter_thanks": {
       "slots": []
     }
   },
@@ -20,5 +19,5 @@
   "policy_names": [
     "policy.attention_policy.AttentionPolicy"
   ],
-  "trained_at": "20181228-092009"
+  "trained_at": "20181228-161031"
 }

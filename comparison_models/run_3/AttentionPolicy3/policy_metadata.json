@@ -7,10 +7,10 @@
         "item"
       ]
     },
-    "utter_thanks": {
+    "utter_goodbye": {
       "slots": []
     },
-    "utter_goodbye": {
+    "utter_thanks": {
       "slots": []
     }
   },
@@ -23,5 +23,5 @@
   "policy_names": [
     "policy.attention_policy.AttentionPolicy"
   ],
-  "trained_at": "20181228-092404"
+  "trained_at": "20181228-161427"
 }

@@ -2,8 +2,8 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "package",
         "time",
+        "package",
         "item"
       ]
     },
@@ -26,5 +26,5 @@
   "policy_names": [
     "rasa_core.policies.keras_policy.KerasPolicy"
   ],
-  "trained_at": "20181228-092356"
+  "trained_at": "20181228-161419"
 }

@@ -7,13 +7,13 @@
         "item"
       ]
     },
+    "utter_thanks": {
+      "slots": []
+    },
     "utter_goodbye": {
       "slots": []
     },
     "action_default_fallback": {
-      "slots": []
-    },
-    "utter_thanks": {
       "slots": []
     }
   },
@@ -26,5 +26,5 @@
   "policy_names": [
     "rasa_core.policies.keras_policy.KerasPolicy"
   ],
-  "trained_at": "20181228-092426"
+  "trained_at": "20181228-161449"
 }

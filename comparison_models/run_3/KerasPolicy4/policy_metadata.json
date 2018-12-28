@@ -2,15 +2,18 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "package",
         "time",
+        "package",
         "item"
       ]
+    },
+    "utter_goodbye": {
+      "slots": []
     },
     "utter_thanks": {
       "slots": []
     },
-    "utter_goodbye": {
+    "action_default_fallback": {
       "slots": []
     }
   },
@@ -23,5 +26,5 @@
   "policy_names": [
     "rasa_core.policies.keras_policy.KerasPolicy"
   ],
-  "trained_at": "20181228-092443"
+  "trained_at": "20181228-161506"
 }

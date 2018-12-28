@@ -1,0 +1,2 @@
+model_checkpoint_path: "tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "tensorflow_embedding.ckpt"
