@@ -8,6 +8,7 @@ import logging
 import warnings
 
 from policy.mobile_policy import MobilePolicy
+from policy.attention_policy import AttentionPolicy
 from rasa_core import utils
 from rasa_core.agent import Agent
 from rasa_core.policies.memoization import MemoizationPolicy
@@ -30,13 +31,11 @@ def train_dialogue_keras(domain_file="mobile_domain.yml",
     
     agent = Agent(domain_file,
                   policies=[MemoizationPolicy(max_history=5),
-                            MobilePolicy(), fallback])
+                            MobilePolicy(epochs=100, batch_size=16), fallback])
 
     training_data = agent.load_data(training_data_file)
     agent.train(
             training_data,
-            epochs=100,
-            batch_size=16,
             validation_split=0.2
     )
 
@@ -66,6 +65,29 @@ def train_dialogue_embed(domain_file="mobile_domain.yml",
     agent.persist(model_path)
     return agent
 
+
+def train_dialogue_transformer(domain_file="mobile_domain.yml",
+                               model_path="models/dialogue_transformer",
+                               training_data_file="data/mobile_edit_story.md"):
+
+    fallback = FallbackPolicy(
+        fallback_action_name="action_default_fallback",
+        nlu_threshold=0.5,
+        core_threshold=0.3
+    )
+
+    agent = Agent(domain_file,
+                  policies=[MemoizationPolicy(max_history=5),
+                            AttentionPolicy(epochs=100), fallback])
+
+    training_data = agent.load_data(training_data_file)
+    agent.train(
+        training_data,
+        validation_split=0.2
+    )
+
+    agent.persist(model_path)
+    return agent
 
 def train_nlu():
     from rasa_nlu.training_data import load_data
@@ -103,7 +125,7 @@ if __name__ == '__main__':
 
     parser.add_argument(
             'task',
-            choices=["train-nlu", "train-dialogue-keras", "train-dialogue-embed", "train-nlu-gao"],
+            choices=["train-nlu", "train-dialogue-keras", "train-dialogue-embed", "train-nlu-gao", "train-dialogue-transformer"],
             help="what the bot should do ?")
     task = parser.parse_args().task
 
@@ -116,3 +138,5 @@ if __name__ == '__main__':
         train_dialogue_keras()
     elif task == "train-dialogue-embed":
         train_dialogue_embed()
+    elif task == "train-dialogue-transformer":
+        train_dialogue_transformer()

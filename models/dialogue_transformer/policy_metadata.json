@@ -2,18 +2,18 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "package",
         "time",
-        "item"
+        "item",
+        "package"
       ]
     },
     "utter_goodbye": {
       "slots": []
     },
-    "utter_thanks": {
+    "action_default_fallback": {
       "slots": []
     },
-    "action_default_fallback": {
+    "utter_thanks": {
       "slots": []
     }
   },
@@ -27,8 +27,8 @@
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "policy_names": [
     "rasa_core.policies.memoization.MemoizationPolicy",
-    "policy.mobile_policy.MobilePolicy",
+    "policy.attention_policy.AttentionPolicy",
     "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "trained_at": "20181228-110655"
+  "trained_at": "20181228-110520"
 }

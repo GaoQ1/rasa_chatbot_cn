@@ -26,6 +26,10 @@ class AttentionPolicy(KerasPolicy):
         S_inputs = Input(shape=input_shape)
 
         embeddings = Position_Embedding()(S_inputs)
+        """
+            nb_head = 8 超参可设定
+            size_per_head = 16 超参可设定
+        """
         O_seq = Attention(8, 16)([embeddings, embeddings, embeddings])
         O_seq = GlobalAveragePooling1D()(O_seq)
         O_seq = Dropout(0.5)(O_seq)
