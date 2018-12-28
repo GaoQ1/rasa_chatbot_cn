@@ -29,7 +29,7 @@ run-http:
 	python -m rasa_core.run --enable_api -d models/dialogue -u models/nlu/default/current --endpoints endpoints.yml --auth_token gaoquan
 
 run-nlu-server:
-	python -m rasa_nlu.server -c nlu_model_config.yml --path models/nlu/
+	python -m rasa_nlu.server -c configs/nlu_model_config.yml --path models/nlu/
 
 evaluate:
 	python -m rasa_core.evaluate -d models/dialogue -s data/mobile_edit_story.md
@@ -47,11 +47,10 @@ train-nlu-gao:
 	python bot.py train-nlu-gao
 
 run-nlu-gao-server:
-	python -m rasa_nlu_gao.server -c config_embedding_bilstm.yml --path models/nlu_gao/
-
+	python -m rasa_nlu_gao.server -c configs/config_embedding_bilstm.yml --path models/nlu_gao/
 
 compare-policy:
-	python -m rasa_core.train compare -c keras_policy.yml embed_policy.yml \
+	python -m rasa_core.train compare -c policy/attention_policy.yml policy/keras_policy.yml \
   	-d mobile_domain.yml -s data/mobile_edit_story.md -o comparison_models/ --runs 3 --percentages \
   	0 25 50 70
 

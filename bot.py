@@ -7,7 +7,7 @@ import argparse
 import logging
 import warnings
 
-from policy import MobilePolicy
+from policy.mobile_policy import MobilePolicy
 from rasa_core import utils
 from rasa_core.agent import Agent
 from rasa_core.policies.memoization import MemoizationPolicy
@@ -73,7 +73,7 @@ def train_nlu():
     from rasa_nlu.model import Trainer
 
     training_data = load_data('data/rasa_dataset_training.json')
-    trainer = Trainer(config.load("nlu_embedding_config.yml"))
+    trainer = Trainer(config.load("configs/nlu_embedding_config.yml"))
     trainer.train(training_data)
     model_directory = trainer.persist('models/nlu/',
                                       fixed_model_name="current")
@@ -87,7 +87,7 @@ def train_nlu_gao():
     from rasa_nlu_gao.model import Trainer
 
     training_data = load_data('data/rasa_dataset_training.json')
-    trainer = Trainer(config.load("config_embedding_bilstm.yml"))
+    trainer = Trainer(config.load("configs/config_embedding_bilstm.yml"))
     trainer.train(training_data)
     model_directory = trainer.persist('models/nlu_gao/',
                                       fixed_model_name="current")

@@ -1,0 +1,3 @@
+policies:
+  - name: policy.attention_policy.AttentionPolicy
+    epochs: 100
