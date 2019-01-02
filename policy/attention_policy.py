@@ -1,3 +1,6 @@
+#!/usr/bin/python
+#coding:utf-8
+
 import logging
 
 from rasa_core.policies.keras_policy import KerasPolicy
@@ -45,7 +48,8 @@ class AttentionPolicy(KerasPolicy):
         return model
 
     @classmethod
-    def load(cls, path: Text) -> 'KerasPolicy':
+    def load(cls, path):
+        # type: (Text) -> KerasPolicy
         from keras.models import load_model
 
         if os.path.exists(path):
