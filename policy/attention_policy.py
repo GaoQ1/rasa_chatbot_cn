@@ -31,6 +31,7 @@ class AttentionPolicy(KerasPolicy):
             size_per_head = 16 超参可设定
         """
         O_seq = Attention(16, 64)([embeddings, embeddings, embeddings])
+        O_seq = Attention(16, 64)([O_seq, O_seq, O_seq])
         O_seq = GlobalAveragePooling1D()(O_seq)
         O_seq = Dropout(0.5)(O_seq)
         outputs = Dense(units=output_shape[-1], activation='softmax')(O_seq)
