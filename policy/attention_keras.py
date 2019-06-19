@@ -1,5 +1,5 @@
 from keras import backend as K
-from keras.engine.topology import Layer
+from keras.layers import Layer
 
 
 class Position_Embedding(Layer):
@@ -19,12 +19,14 @@ class Position_Embedding(Layer):
     def call(self, x):
         if (self.size == None) or (self.mode == 'sum'):
             self.size = int(x.shape[-1])
-        batch_size, seq_len = K.shape(x)[0], K.shape(x)[1]
+        # batch_size, seq_len = K.shape(x)[0], K.shape(x)[1]
         position_j = 1. / K.pow(10000., 2 * K.arange(self.size / 2, dtype='float32') / self.size)
         position_j = K.expand_dims(position_j, 0)
         position_i = K.cumsum(K.ones_like(x[:, :, 0]), 1)-1
         position_i = K.expand_dims(position_i, 2)
+
         position_ij = K.dot(position_i, position_j)
+
         position_ij = K.concatenate(
             [K.cos(position_ij), K.sin(position_ij)], 2)
         if self.mode == 'sum':

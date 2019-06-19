@@ -1,0 +1,32 @@
+language: "zh"
+
+pipeline:
+- name: "JiebaTokenizer"
+- name: "CRFEntityExtractor"
+
+- name: "components.extractors.jieba_pseg_extractor.JiebaPsegExtractor"
+  part_of_speech: ["nr"]
+
+- name: "CountVectorsFeaturizer"
+- name: "EmbeddingIntentClassifier"
+
+policies:
+  - name: "policy.attention_policy.AttentionPolicy"
+    epochs: 100
+    featurizer:
+    - name: MaxHistoryTrackerFeaturizer
+      max_history: 3
+      state_featurizer:
+        - name: LabelTokenizerSingleStateFeaturizer
+    tf_config: {
+      "inter_op_parallelism_threads": 0,
+      "intra_op_parallelism_threads": 0,
+      "gpu_options": {"allow_growth": True}
+    }
+
+  - name: FallbackPolicy
+    fallback_action_name: 'action_default_fallback'
+    nlu_threshold: 0.5
+    core_threshold: 0.3
+  - name: MemoizationPolicy
+    max_history: 3
