@@ -11,3 +11,7 @@ run-cmdline:
 
 run-graph:
 	rasa visualize --domain domain.yml --stories data/core --config config.yml --nlu data/nlu
+
+run-x:
+	rasa run actions --actions actions.actions &
+	rasa x -m models --endpoints configs/endpoints.yml

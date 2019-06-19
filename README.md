@@ -55,3 +55,18 @@ make run-cmdline
   part_of_speech: ["nr"]
 ```
 这样就ok了，后续我会考虑将rasa-nlu-gao重新修改下。
+
+## use rasa x
+rasa新版本中，增加了rasa x这个功能。这里也做了尝试，感觉挺方便。
+
+### install rasa x
+```
+pip install rasa-x --extra-index-url https://pypi.rasa.com/simple
+```
+下载rasa-x package
+
+### use rasa x
+```
+make run-x
+```
+没做就是这么简单。Have a fun!
