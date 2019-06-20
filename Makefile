@@ -6,8 +6,8 @@ run:
 	rasa run --endpoints configs/endpoints.yml --enable-api -m models --debug
 
 run-cmdline:
-	kidx run actions --actions actions.actions & 
-	kidx shell --endpoints configs/endpoints.yml -m models --debug
+	rasa run actions --actions actions.actions & 
+	rasa shell --endpoints configs/endpoints.yml -m models --debug
 
 run-graph:
 	rasa visualize --domain domain.yml --stories data/core --config config.yml --nlu data/nlu
