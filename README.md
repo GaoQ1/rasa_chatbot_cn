@@ -66,7 +66,7 @@ make run-cmdline
   part_of_speech: ["nr"]
 ```
 其他组件也是这样用，具体可参照[README.md](https://github.com/GaoQ1/rasa_nlu_gq/blob/master/README.md)。
-而如果是你自己的组件可以放到components里面，如果你想做贡献，欢迎fork[rasa-nlu-gao](https://github.com/GaoQ1/rasa_nlu_gq)，并提交pr。
+而如果是你自己的组件可以放到components里面，如果你想做贡献，欢迎fork [rasa-nlu-gao](https://github.com/GaoQ1/rasa_nlu_gq)，并提交pr。
 
 ## use rasa x
 rasa新版本中，增加了rasa x这个功能。这里也做了尝试，感觉挺方便。
