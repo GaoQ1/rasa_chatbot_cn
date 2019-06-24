@@ -1,4 +1,4 @@
 keras
-jieba
-rasa
+rasa-nlu-gao>=0.3.0
 rasa-sdk
+

@@ -57,6 +57,17 @@ make run-cmdline
 ```
 这样就ok了，后续我会考虑将rasa-nlu-gao重新修改下。
 
+**[edit 2019.06.24]**
+继续上次所说的对rasa-nlu-gao进行修改，现在可以直接使用原来rasa-nlu-gao里面的组件。
+ - 首先`pip install rasa-nlu-gao>=0.3.0`
+ - 下面只需要在*config.yml*中配置：
+```
+- name: "rasa_nlu_gao.extractors.jieba_pseg_extractor.JiebaPsegExtractor"
+  part_of_speech: ["nr"]
+```
+其他组件也是这样用，具体可参照[README.md](https://github.com/GaoQ1/rasa_nlu_gq/blob/master/README.md)。
+而如果是你自己的组件可以放到components里面，如果你想做贡献，欢迎fork[rasa-nlu-gao](https://github.com/GaoQ1/rasa_nlu_gq)，并提交pr。
+
 ## use rasa x
 rasa新版本中，增加了rasa x这个功能。这里也做了尝试，感觉挺方便。
 

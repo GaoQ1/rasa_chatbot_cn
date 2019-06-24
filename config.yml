@@ -4,7 +4,7 @@ pipeline:
 - name: "JiebaTokenizer"
 - name: "CRFEntityExtractor"
 
-- name: "components.extractors.jieba_pseg_extractor.JiebaPsegExtractor"
+- name: "rasa_nlu_gao.extractors.jieba_pseg_extractor.JiebaPsegExtractor"
   part_of_speech: ["nr"]
 
 - name: "CountVectorsFeaturizer"
