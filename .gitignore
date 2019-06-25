@@ -1,8 +1,5 @@
 __pycache__
-data/*.dat
 *.log
-stories.md
-comparison_models/*
 failed_stories.md
 story_confmat.md
 test_env
