@@ -15,7 +15,7 @@
 五月份rasa官方发布了release版本，做了比较大的改动。介于此，[rasa_chatbot_cn](https://github.com/GaoQ1/rasa_chatbot_cn)这个demo也做出相对应的更新，更新到master分支上。之前基于`0.13`的版本在0.13.x分支上，你可以自由切换。新版本中将命令行做的十分简便，具体命令如下。
 
 **edit at 2019.06.24**
-将之前的[rasa-nlu-gao](https://github.com/GaoQ1/rasa_nlu_gq)进行了修改，以支持新版本的rasa，而且不再在源码里进行修改。首先需要`pip install rasa-nlu-gao>=0.3.0`，具体用法如下。
+将之前的[rasa-nlu-gao](https://github.com/GaoQ1/rasa_nlu_gq)进行了修改，以支持新版本的rasa，而且不再在源码里进行修改。首先需要`pip install rasa-nlu-gao>=0.3.1`，具体用法如下。
 
 ## Command
 ### install packages
@@ -62,7 +62,7 @@ make run-cmdline
 
 **[edit 2019.06.24]**
 继续上次所说的对rasa-nlu-gao进行修改，现在可以直接使用原来rasa-nlu-gao里面的组件。
- - 首先`pip install rasa-nlu-gao>=0.3.0`
+ - 首先`pip install rasa-nlu-gao>=0.3.1`
  - 下面只需要在*config.yml*中配置：
 ```
 - name: "rasa_nlu_gao.extractors.jieba_pseg_extractor.JiebaPsegExtractor"
