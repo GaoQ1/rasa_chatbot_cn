@@ -7,8 +7,14 @@ pipeline:
 - name: "rasa_nlu_gao.extractors.jieba_pseg_extractor.JiebaPsegExtractor"
   part_of_speech: ["nr"]
 
-- name: "CountVectorsFeaturizer"
-- name: "EmbeddingIntentClassifier"
+- name: "rasa_nlu_gao.featurizers.bert_vectors_featurizer.BertVectorsFeaturizer"
+  ip: '127.0.0.1'
+  port: 5555
+  port_out: 5556
+  show_server_config: True
+  timeout: 10000
+  check_version: False
+- name: "rasa_nlu_gao.classifiers.embedding_bert_intent_classifier.EmbeddingBertIntentClassifier"
 
 policies:
   - name: "policy.attention_policy.AttentionPolicy"

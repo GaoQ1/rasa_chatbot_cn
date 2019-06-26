@@ -2,7 +2,7 @@ train:
 	rasa train --domain domain.yml --data data --config config.yml --out models
 
 train-nlu:
-	rasa train nlu --data data/nlu --config config.yml --out models/nlu
+	rasa train nlu -u data/nlu -c config.yml --out models/nlu
 
 run:
 	rasa run actions --actions actions.actions & 
