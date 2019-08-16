@@ -89,4 +89,4 @@ make run-x
 ## some problems
  Q: 为什么我会报`couldn't find component...`这个错？
 
- A: rasa使用了importlib动态加载自定义component和policy。这个错误的原因是你没有将component和policy的目录append到PYTHONPATH里面。你需要`export PYTHONPATH=/path/to/your/compoment`
+ A: rasa使用了importlib动态加载自定义component和policy。这个错误的原因是你没有将component和policy的目录append到PYTHONPATH里面。你需要`export PYTHONPATH=/path/to/your/component`
