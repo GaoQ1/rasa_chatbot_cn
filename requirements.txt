@@ -1,4 +1,4 @@
 keras
 rasa-nlu-gao>=0.3.0
-rasa-sdk
+rasa-sdk~=1.1.0
 
