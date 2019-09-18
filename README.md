@@ -17,9 +17,9 @@
 **edit at 2019.06.24**
 将之前的[rasa-nlu-gao](https://github.com/GaoQ1/rasa_nlu_gq)进行了修改，以支持新版本的rasa，而且不再在源码里进行修改。首先需要`pip install rasa-nlu-gao>=0.3.1`，具体用法如下。
 
-## Command
+## Running by command
 ### install packages
- - python >= 3.5
+ - python >= 3.6
 ```
 pip install -r requirements.txt
 ```
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ```
 make train
 ```
-训练nlu和core模型，新版本中会将模型自动打包成zip文件
+训练nlu和core模型，新版本中会将模型自动打包成zip文件。
 
 ### run model
 ```
@@ -88,5 +88,10 @@ make run-x
 
 ## some problems
  Q: 为什么我会报`couldn't find component...`这个错？
-
  A: rasa使用了importlib动态加载自定义component和policy。这个错误的原因是你没有将component和policy的目录append到PYTHONPATH里面。你需要`export PYTHONPATH=/path/to/your/component`
+
+ Q: 为什么训练会报10000time超时错误？
+ A: 这个问题是因为你没有启用bert-as-service服务。启动教程参考[rasa对话系统踩坑记（八）](https://www.jianshu.com/p/6a93209c48a4)，启动之后在config.yml将对用的bert-as-service服务ip改下，本例子默认是127.0.0.1，但是你要在本机启动bert服务
+
+ Q: 如何能够快速尝试例子呢？
+ A: 介于各个开发环境不同，报各种错误，所以上传了docker文件。但前提还是你要安装docker，并在运行前确保bert-as-service启用，当然你不用bert的话可以忽略。然后你只需要`sh dev/deploy_dev.sh`，就可以愉快的通过postman或者curl测试这个demo了。记得`docker logs -f chatbot_dev`查看有没有训练完，有没有报错。linux和mac下没有问题。windows下可能需要微调下。
