@@ -101,4 +101,4 @@ make run-x
  A: 介于各个开发环境不同，报各种错误，所以上传了docker文件。但前提还是你要安装docker，并在运行前确保bert-as-service启用，当然你不用bert的话可以忽略。然后你只需要`sh dev/deploy_dev.sh`，就可以愉快的通过postman或者curl测试这个demo了。记得`docker logs -f chatbot_dev`查看有没有训练完，有没有报错。linux和mac下没有问题。windows下可能需要微调下。
 
 ## 友情链接
- - [单轮多轮闲聊语料](https://www.jianshu.com/p/cb3442b21713)
+ - [中文闲聊语料](https://www.jianshu.com/p/cb3442b21713)
