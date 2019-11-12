@@ -1,7 +1,6 @@
 # Rasa Core and Rasa NLU
 ## rasa对话系统系列文章
 - [rasa-nlu的究极形态](https://www.jianshu.com/p/553e37ffbac0)
-
 - [rasa对话系统踩坑记（一）](https://www.jianshu.com/p/5d9aa2a444a3)
 - [rasa对话系统踩坑记（二）](https://www.jianshu.com/p/4ecd09be4419)
 - [rasa对话系统踩坑记（三）](https://www.jianshu.com/p/ae028903d748)
@@ -100,3 +99,6 @@ make run-x
  Q: 如何能够快速尝试例子呢?
 
  A: 介于各个开发环境不同，报各种错误，所以上传了docker文件。但前提还是你要安装docker，并在运行前确保bert-as-service启用，当然你不用bert的话可以忽略。然后你只需要`sh dev/deploy_dev.sh`，就可以愉快的通过postman或者curl测试这个demo了。记得`docker logs -f chatbot_dev`查看有没有训练完，有没有报错。linux和mac下没有问题。windows下可能需要微调下。
+
+## friendly link
+ - [单轮多轮闲聊语料](https://www.jianshu.com/p/cb3442b21713)
