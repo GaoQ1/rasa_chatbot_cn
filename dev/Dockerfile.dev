@@ -5,6 +5,10 @@ SHELL ["/bin/bash", "-c"]
 # Default to UTF-8 file.encoding
 ENV LANG C.UTF-8
 
+RUN sed -i 's/deb.debian.org/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
+RUN sed -i 's/security.debian.org/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
+RUN apt-get update
+
 RUN apt-get update -qq && \
   apt-get install -y --no-install-recommends \
   apt-utils \
