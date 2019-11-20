@@ -1,6 +1,5 @@
 # Rasa Core and Rasa NLU
 ## rasa对话系统系列文章
-- [rasa-nlu的究极形态](https://www.jianshu.com/p/553e37ffbac0)
 - [rasa对话系统踩坑记（一）](https://www.jianshu.com/p/5d9aa2a444a3)
 - [rasa对话系统踩坑记（二）](https://www.jianshu.com/p/4ecd09be4419)
 - [rasa对话系统踩坑记（三）](https://www.jianshu.com/p/ae028903d748)
@@ -11,6 +10,7 @@
 - [rasa对话系统踩坑记（八）](https://www.jianshu.com/p/6a93209c48a4)
 - [rasa对话系统踩坑记（九）](https://www.jianshu.com/p/1a4abe93635e)
 - [rasa对话系统踩坑记（十）](https://www.jianshu.com/p/debcf0041fcb)
+- [rasa-nlu的究极形态](https://www.jianshu.com/p/553e37ffbac0)
 - [闲聊模型的实践并应用到rasa](https://www.jianshu.com/p/bccf2321bd50)
 
 ## Introduction
