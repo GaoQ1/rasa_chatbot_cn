@@ -11,6 +11,7 @@
 - [rasa对话系统踩坑记（八）](https://www.jianshu.com/p/6a93209c48a4)
 - [rasa对话系统踩坑记（九）](https://www.jianshu.com/p/1a4abe93635e)
 - [rasa对话系统踩坑记（十）](https://www.jianshu.com/p/debcf0041fcb)
+- [闲聊模型的实践并应用到rasa](https://www.jianshu.com/p/bccf2321bd50)
 
 ## Introduction
 五月份rasa官方发布了release版本，做了比较大的改动。介于此，[rasa_chatbot_cn](https://github.com/GaoQ1/rasa_chatbot_cn)这个demo也做出相对应的更新，更新到master分支上。之前基于`0.13`的版本在0.13.x分支上，你可以自由切换。新版本中将命令行做的十分简便，具体命令如下。
@@ -99,6 +100,3 @@ make run-x
  Q: 如何能够快速尝试例子呢?
 
  A: 介于各个开发环境不同，报各种错误，所以上传了docker文件。但前提还是你要安装docker，并在运行前确保bert-as-service启用，当然你不用bert的话可以忽略。然后你只需要`sh dev/deploy_dev.sh`，就可以愉快的通过postman或者curl测试这个demo了。记得`docker logs -f chatbot_dev`查看有没有训练完，有没有报错。linux和mac下没有问题。windows下可能需要微调下。
-
-## 友情链接
- - [中文闲聊语料](https://www.jianshu.com/p/cb3442b21713)
