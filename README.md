@@ -11,6 +11,7 @@
 - [rasa对话系统踩坑记（九）](https://www.jianshu.com/p/1a4abe93635e)
 - [rasa对话系统踩坑记（十）](https://www.jianshu.com/p/debcf0041fcb)
 - [rasa-nlu的究极形态](https://www.jianshu.com/p/553e37ffbac0)
+- [闲聊模型的实践并应用到rasa](https://www.jianshu.com/p/bccf2321bd50)
 
 ## Introduction
 五月份rasa官方发布了release版本，做了比较大的改动。介于此，[rasa_chatbot_cn](https://github.com/GaoQ1/rasa_chatbot_cn)这个demo也做出相对应的更新，更新到master分支上。之前基于`0.13`的版本在0.13.x分支上，你可以自由切换。新版本中将命令行做的十分简便，具体命令如下。
