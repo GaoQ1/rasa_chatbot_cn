@@ -2,22 +2,19 @@ train:
 	rasa train --domain domain.yml --data data --config config.yml --out models
 
 train-nlu:
-	rasa train nlu -u data/nlu -c config.yml --out models/nlu
+	rasa train nlu --nlu split_data/nlu --config configs.yml --out models/nlu
+
+run-actions:
+	rasa run actions
+
+shell:
+	make run-actions &
+	rasa shell -m models --endpoints configs/endpoints.yml
 
 run:
-	rasa run actions --actions actions.actions & 
-	rasa run --endpoints configs/endpoints.yml --enable-api -m models --debug
-
-run-nlu:
-	rasa run --enable-api -m models/nlu
-
-run-cmdline:
-	rasa run actions --actions actions.actions & 
-	rasa shell --endpoints configs/endpoints.yml -m models --debug
-
-run-graph:
-	rasa visualize --domain domain.yml --stories data/core --config config.yml --nlu data/nlu
+	make run-actions &
+	rasa run --enable-api -m models --endpoints configs/endpoints.yml -p 5005
 
 run-x:
-	rasa run actions --actions actions.actions &
-	rasa x -m models --endpoints configs/endpoints.yml
+	make run-actions &
+	rasa x --no-prompt -c configs.yml --cors "*" --endpoints configs/endpoints.yml --enable-api

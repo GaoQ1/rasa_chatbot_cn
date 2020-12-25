@@ -1,38 +1,43 @@
-language: "zh"
-
+language: zh
 pipeline:
-- name: "JiebaTokenizer"
-- name: "CRFEntityExtractor"
+- name: HFTransformersNLP
+  model_weights: "bert-base-chinese"
+  model_name: "bert"
 
-- name: "rasa_nlu_gao.extractors.jieba_pseg_extractor.JiebaPsegExtractor"
-  part_of_speech: ["nr"]
+- name: LanguageModelTokenizer
+- name: LanguageModelFeaturizer
 
-- name: "rasa_nlu_gao.featurizers.bert_vectors_featurizer.BertVectorsFeaturizer"
-  ip: '127.0.0.1'
-  port: 5555
-  port_out: 5556
-  show_server_config: True
-  timeout: 10000
-  check_version: False
-- name: "rasa_nlu_gao.classifiers.embedding_bert_intent_classifier.EmbeddingBertIntentClassifier"
+- name: CountVectorsFeaturizer
+- name: CountVectorsFeaturizer
+  analyzer: char_wb
+  min_ngram: 1
+  max_ngram: 4
+
+- name: DIETClassifier
+  epochs: 30
+  learning_rate: 0.005
+  num_transformer_layers: 0
+  embedding_dimension: 30
+  weight_sparcity: 0.8
+  hidden_layer_sizes:
+    text: [256, 128]
 
 policies:
-  - name: "policy.attention_policy.AttentionPolicy"
+  - name: AugmentedMemoizationPolicy
+  
+  - name: TEDPolicy
     epochs: 100
     featurizer:
     - name: MaxHistoryTrackerFeaturizer
-      max_history: 3
+      max_history: 5
       state_featurizer:
-        - name: LabelTokenizerSingleStateFeaturizer
-    tf_config: {
-      "inter_op_parallelism_threads": 0,
-      "intra_op_parallelism_threads": 0,
-      "gpu_options": {"allow_growth": True}
-    }
+        - name: BinarySingleStateFeaturizer
+
 
   - name: FallbackPolicy
     fallback_action_name: 'action_default_fallback'
     nlu_threshold: 0.5
     core_threshold: 0.3
-  - name: MemoizationPolicy
-    max_history: 3
+    ambiguity_threshold: 0.1
+  
+  - name: MappingPolicy
