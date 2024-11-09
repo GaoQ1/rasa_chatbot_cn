@@ -60,3 +60,4 @@ make run-x
 [liveportraitweb](https://www.liveportraitweb.com/)
 [novelling](https://www.novelling.com/)
 [whatnovel](https://whatnovel.com/)
+[omniparser](https://www.omniparser.net/)
