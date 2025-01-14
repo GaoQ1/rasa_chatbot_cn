@@ -71,4 +71,5 @@ make run-x
 [Flexvalorant](https://www.flexvalorant.com)
 [Rednote](https://www.rednote.pro/)
 [RednoteApp](https://www.rednoteapp.pro/)
+[RednoteUS](https://www.rednote.us/)
 
