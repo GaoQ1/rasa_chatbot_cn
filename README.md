@@ -72,4 +72,5 @@ make run-x
 [Rednote](https://www.rednote.pro/)
 [RednoteApp](https://www.rednoteapp.pro/)
 [RednoteUS](https://www.rednote.us/)
+[RednoteLive](https://www.rednote.live/)
 
