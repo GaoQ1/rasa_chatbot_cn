@@ -70,7 +70,6 @@ make run-x
 [Transpixar](https://www.transpixar.pro/)
 [Flexvalorant](https://www.flexvalorant.com)
 [Rednote](https://www.rednote.pro/)
-[RednoteApp](https://www.rednoteapp.pro/)
 [RednoteUS](https://www.rednote.us/)
-[RednoteLive](https://www.rednote.live/)
+[Body Visualizer](https://www.bodyvisualizer.org/)
 
