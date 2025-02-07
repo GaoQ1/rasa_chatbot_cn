@@ -72,4 +72,5 @@ make run-x
 [Rednote](https://www.rednote.pro/)
 [RednoteUS](https://www.rednote.us/)
 [Body Visualizer](https://www.bodyvisualizer.org/)
+[AI Kungfu](https://www.ai-kungfu.net/)
 
