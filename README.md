@@ -77,4 +77,4 @@ make run-x
 [10minutes.one](https://10minutes.one/)
 [Career Dreamer](https://www.careerdreamer.net/)
 [Wanx2.1](https://www.wanx.run/)
-[MMAudio Pinterest](https://www.pinterest.com/pin/1131459106381374738/)
+[AudioX](https://audiox.app/)
