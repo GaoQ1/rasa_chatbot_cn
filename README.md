@@ -78,3 +78,4 @@ make run-x
 [Career Dreamer](https://www.careerdreamer.net/)
 [Wanx2.1](https://www.wanx.run/)
 [AudioX](https://audiox.app/)
+[Image To Video AI](https://imagetovideoai.dev/)
