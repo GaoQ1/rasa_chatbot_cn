@@ -79,3 +79,4 @@ make run-x
 [Wanx2.1](https://www.wanx.run/)
 [AudioX](https://audiox.app/)
 [Image To Video AI](https://imagetovideoai.dev/)
+[AI Girlfriend](https://ai-girlfriend.me/)
