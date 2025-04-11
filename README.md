@@ -80,3 +80,4 @@ make run-x
 [AudioX](https://audiox.app/)
 [Image To Video AI](https://imagetovideoai.dev/)
 [AI Girlfriend](https://ai-girlfriend.me/)
+[AI Doll Generator](https://ai-doll-generator.com)
