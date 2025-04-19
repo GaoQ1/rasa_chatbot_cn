@@ -81,3 +81,4 @@ make run-x
 [Image To Video AI](https://imagetovideoai.dev/)
 [AI Girlfriend](https://ai-girlfriend.me/)
 [AI Doll Generator](https://ai-doll-generator.com)
+[FramePack](https://frame-pack.net/)
