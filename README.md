@@ -82,3 +82,4 @@ make run-x
 [AI Girlfriend](https://ai-girlfriend.me/)
 [AI Doll Generator](https://ai-doll-generator.com)
 [FramePack](https://frame-pack.net/)
+[mRNA](https://mrna.app/)
