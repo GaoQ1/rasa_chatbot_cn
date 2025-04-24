@@ -83,3 +83,4 @@ make run-x
 [AI Doll Generator](https://ai-doll-generator.com)
 [FramePack](https://frame-pack.net/)
 [mRNA](https://mrna.app/)
+[GPT-Image-1](https://gpt-image-1.org/)
