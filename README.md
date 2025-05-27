@@ -93,4 +93,6 @@ make run-x
 [Audio Remover](https://audiox.app/audio-remover)
 [How to Remove Audio From Video](https://audiox.app/how-to-remove-audio-from-video)
 [Text to Speech](https://audiox.app/text-to-speech)
+[Lyria 2](https://audiox.app/lyria2)
+[Sound Effects](https://audiox.app/sound-effects)
 [Veo3](https://veo3.pro/)
