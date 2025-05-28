@@ -95,4 +95,5 @@ make run-x
 [Text to Speech](https://audiox.app/text-to-speech)
 [Lyria 2](https://audiox.app/lyria2)
 [Sound Effects](https://audiox.app/sound-effects)
-[Veo3](https://veo3.pro/)
+[AI Mermaid](https://audiox.app/ai-mermaid)
+[AI Kiss](https://audiox.app/ai-kiss)
