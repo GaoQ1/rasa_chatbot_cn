@@ -97,3 +97,5 @@ make run-x
 [Sound Effects](https://audiox.app/sound-effects)
 [AI Mermaid](https://audiox.app/ai-mermaid)
 [AI Kiss](https://audiox.app/ai-kiss)
+[Flux Kontext](https://audiox.app/flux-kontext)
+[Kling 2.1](https://audiox.app/kling-2-1)
