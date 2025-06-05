@@ -99,3 +99,5 @@ make run-x
 [AI Kiss](https://audiox.app/ai-kiss)
 [Flux Kontext](https://audiox.app/flux-kontext)
 [Kling 2.1](https://audiox.app/kling-2-1)
+[Wan 2.1](https://audiox.app/wan2-1)
+[SYFM](https://audiox.app/sound-effects/syfm)
