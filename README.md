@@ -102,3 +102,4 @@ make run-x
 [Wan 2.1](https://audiox.app/wan2-1)
 [SYFM](https://audiox.app/sound-effects/syfm)
 [Lip Sync](https://lip-sync.net/)
+[Speech Jammer](https://speechjammer.net/)
