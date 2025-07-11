@@ -104,4 +104,5 @@ make run-x
 [Lip Sync](https://lip-sync.net/)
 [Speech Jammer](https://speechjammer.net/)
 [B-roll](https://b-roll.org/)
-[MMAudio](https://audiox.app/mmaudio)
+[MMAudio](https://audiox.app/video-to-audio/mmaudio)
+[Thinksound](https://audiox.app/video-to-audio/thinksound)
