@@ -106,3 +106,4 @@ make run-x
 [B-roll](https://b-roll.org/)
 [MMAudio](https://audiox.app/video-to-audio/mmaudio)
 [Thinksound](https://audiox.app/video-to-audio/thinksound)
+[Grok Companion](https://grokcompanion.org/)
