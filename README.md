@@ -109,3 +109,4 @@ make run-x
 [Grok Companion](https://grokcompanion.org/)
 [Themapthatleadstoyou](https://themapthatleadstoyou.com/)
 [AI Voice Generator](https://aivoicegen.net/)
+[Voice Cloning](https://audiox.app/ai-voice-generator/voice-cloning)
