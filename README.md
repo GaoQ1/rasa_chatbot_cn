@@ -110,3 +110,4 @@ make run-x
 [Themapthatleadstoyou](https://themapthatleadstoyou.com/)
 [AI Voice Generator](https://aivoicegen.net/)
 [Voice Cloning](https://audiox.app/ai-voice-generator/voice-cloning)
+[Qwen TTS](https://qwen-tts.com/)
