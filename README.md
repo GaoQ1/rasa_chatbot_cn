@@ -111,3 +111,4 @@ make run-x
 [AI Voice Generator](https://aivoicegen.net/)
 [Voice Cloning](https://audiox.app/ai-voice-generator/voice-cloning)
 [Qwen TTS](https://qwen-tts.com/)
+[Eleven Music](https://eleven-music.net/)
