@@ -112,3 +112,4 @@ make run-x
 [Voice Cloning](https://audiox.app/ai-voice-generator/voice-cloning)
 [Qwen TTS](https://qwen-tts.com/)
 [Eleven Music](https://eleven-music.net/)
+[Clippy Profile Pic](https://clippyprofilepic.com/)
