@@ -114,3 +114,4 @@ make run-x
 [Eleven Music](https://eleven-music.net/)
 [Clippy Profile Pic](https://clippyprofilepic.com/)
 [Interactive Video Generator](https://ivgen.org/)
+[AI Sticker Generator](https://aistickergenerator.org/)
