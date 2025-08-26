@@ -115,3 +115,4 @@ make run-x
 [Clippy Profile Pic](https://clippyprofilepic.com/)
 [Interactive Video Generator](https://ivgen.org/)
 [AI Sticker Generator](https://aistickergenerator.org/)
+[Wan2.2 S2V](https://wans2v.net/)
