@@ -116,3 +116,4 @@ make run-x
 [Interactive Video Generator](https://ivgen.org/)
 [AI Sticker Generator](https://aistickergenerator.org/)
 [Wan2.2 S2V](https://wans2v.net/)
+[Nano Banana Games](https://nanobanana.games)
