@@ -117,3 +117,5 @@ make run-x
 [AI Sticker Generator](https://aistickergenerator.org/)
 [Wan2.2 S2V](https://wans2v.net/)
 [Nano Banana Games](https://nanobanana.games)
+[AI Figurine](https://nanobanana.games/ai-figurine)
+
