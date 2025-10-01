@@ -121,3 +121,4 @@ make run-x
 [AI Infographic Generator](https://aiinfographicgenerator.app/)
 [Youtbe To MP4](https://audiox.app/youtube-to-mp4)
 [Tiktok To MP4](https://audiox.app/tiktok-to-mp4)
+[WebNovel AI](https://webnovelai.io/)
