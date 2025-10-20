@@ -122,3 +122,4 @@ make run-x
 [Youtbe To MP4](https://audiox.app/youtube-to-mp4)
 [Tiktok To MP4](https://audiox.app/tiktok-to-mp4)
 [WebNovel AI](https://webnovelai.io/)
+[DeepSeek OCR](https://deepseekocr.com/)
