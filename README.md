@@ -123,3 +123,4 @@ make run-x
 [Tiktok To MP4](https://audiox.app/tiktok-to-mp4)
 [WebNovel AI](https://webnovelai.io/)
 [DeepSeek OCR](https://deepseekocr.com/)
+[AI Script Generator](https://aiscriptgenerator.net/)
