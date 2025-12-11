@@ -124,3 +124,4 @@ make run-x
 [WebNovel AI](https://webnovelai.io/)
 [DeepSeek OCR](https://deepseekocr.com/)
 [AI Script Generator](https://aiscriptgenerator.net/)
+[Nano Banana](https://audiox.app/models/nano-banana)
