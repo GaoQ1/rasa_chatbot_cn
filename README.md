@@ -130,3 +130,5 @@ make run-x
 [GPT Image 1.5](https://audiox.app/models/gpt-image)
 [Video Any](https://videoany.io/)
 [Image To Video](https://image-to-video.net/)
+[Easy Gen](https://easygen.pro/)
+[Nano Prompt](https://videoany.io/prompt)
