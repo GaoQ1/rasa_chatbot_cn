@@ -132,3 +132,4 @@ make run-x
 [Image To Video](https://image-to-video.net/)
 [Easy Gen](https://easygen.pro/)
 [Nano Prompt](https://videoany.io/prompt)
+[GLM Image](https://videoany.io/models/glm-image)
