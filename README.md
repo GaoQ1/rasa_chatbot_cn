@@ -133,3 +133,6 @@ make run-x
 [Easy Gen](https://easygen.pro/)
 [Nano Prompt](https://videoany.io/prompt)
 [GLM Image](https://videoany.io/models/glm-image)
+[Lip Sync](https://videoany.io/lip-sync)
+[AI Avatar](https://videoany.io/tools/ai-avatar)
+[Video Dubbing](https://videoany.io/video-dubbing)
