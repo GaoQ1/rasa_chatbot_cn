@@ -139,3 +139,4 @@ make run-x
 [grok-imagine-video](https://videoany.io/models/grok-imagine-video)
 [uncensored-ai-video-generator](https://videoany.io/uncensored-ai-video-generator)
 [uncensored-image-to-video-ai](https://videoany.io/uncensored-image-to-video-ai)
+[Kling 3.0](https://videoany.io/models/kling-3-0)
