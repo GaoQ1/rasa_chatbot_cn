@@ -141,5 +141,5 @@ make run-x
 [uncensored-image-to-video-ai](https://videoany.io/uncensored-image-to-video-ai)
 [Kling 3.0](https://videoany.io/models/kling-3-0)
 [Deepseek Video](https://deepseekvideo.app/)
-[](https://videoany.io/models/seedance-2-0)
+[Seedance 2.0](https://videoany.io/models/seedance-2-0)
 [Seedance 2.0](http://seeddance.app/)
