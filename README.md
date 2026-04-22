@@ -72,3 +72,4 @@ make run-x
 [VeoNano](https://veonano.com/)
 [Veo4](https://veo4ai.im/)
 [Happy Horse](https://openhappyhorse.io/)
+[GPT Image 2](https://videoany.io/gpt-image-2-prompts)
